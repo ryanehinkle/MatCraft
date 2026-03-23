@@ -35,11 +35,11 @@
     --text: #9ca3af;
     --text-h: #f3f4f6;
     --bg: #16171d;
-    --border: #2e303a;
+    --border: #414141;
     --code-bg: #1f2028;
     --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
+    --accent-bg: rgba(255, 255, 255, 0.15);
+    --accent-border: ;
     --social-bg: rgba(47, 48, 58, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
@@ -51,19 +51,37 @@
 }
 
 #root {
-  width: 1126px;
+  width: auto;
   max-width: 100%;
   margin: 0 auto;
   text-align: center;
-  border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  height: 100%;
   margin: 0;
+}
+
+.app-container {
+  flex: 1;
+}
+
+/* centered state (before upload) */
+.app-container.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical */
+  align-items: center;     /* horizontal */
+  text-align: center;
+}
+
+/* normal layout after upload */
+.upload-container {
+  margin-bottom: 24px;
 }
 
 h1,
@@ -108,4 +126,124 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
+}
+
+.logo-video {
+  width: 400px; /* scale it down from 900 */
+  height: auto;
+  display: block;
+  margin: 0 auto 40px auto; /* bottom margin */
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 1px solid var(--accent-border);
+  border-radius: 12px;
+  color: var(--text-h);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.upload-button:hover {
+  opacity: 0.9;
+  background: var(--accent-bg);
+}
+
+.upload-input {
+  display: none;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.result-card {
+  width: fit-content;
+  max-width: 90%;
+
+  padding: 20px;
+
+  border-radius: 18px;
+  background: var(--code-bg);
+  box-shadow: var(--shadow);
+
+  text-align: left;
+}
+
+.footer {
+  padding: 16px;
+  text-align: center;
+  color: var(--text);
+  background: var(--bg);
+  font-size: 14px;
+}
+
+.help-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 42px;
+  height: 42px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--code-bg);
+  color: var(--text-h);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: 600;
+  z-index: 1000;
+}
+
+.help-panel {
+  position: fixed;
+  top: 72px;
+  right: 20px;
+  width: 320px;
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--code-bg);
+  color: var(--text-h);
+  box-shadow: var(--shadow);
+  z-index: 1000;
+}
+
+.help-panel h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.help-panel p {
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.top-options {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 20px 0 10px 0;
+  flex-wrap: wrap;
+}
+
+.checkbox-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 10px 14px;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  margin-bottom: 24px; /* Gap under */
+}
+
+.checkbox-option input[type="checkbox"] {
+  cursor: pointer;
 }

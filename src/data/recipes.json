@@ -1,0 +1,5645 @@
+{
+    "acacia_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "acacia_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "acacia_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "acacia_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "acacia_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "acacia_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "acacia_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "acacia_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "acacia_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "acacia_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "acacia_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "acacia_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "acacia_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "acacia_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "acacia_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "acacia_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "acacia_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "acacia_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "acacia_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "activator_rail": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        },
+        {
+          "item": "redstone_torch",
+          "quantity": 1
+        }
+      ]
+    },
+    "arrow": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "flint",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        },
+        {
+          "item": "feather",
+          "quantity": 1
+        }
+      ]
+    },
+    "baked_potato": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "potato",
+          "quantity": 1
+        }
+      ]
+    },
+    "bamboo_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bamboo",
+          "quantity": 9
+        }
+      ]
+    },
+    "bamboo_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "bamboo_chest_raft": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bamboo_raft",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "bamboo_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "bamboo_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "bamboo_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "bamboo_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "bamboo_block",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "bamboo_mosaic": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bamboo_slab",
+          "quantity": 2
+        }
+      ]
+    },
+    "bamboo_planks": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "bamboo_block",
+          "quantity": 1
+        }
+      ]
+    },
+    "bamboo_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "bamboo_raft": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "bamboo_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "bamboo_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "bamboo_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "bamboo_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "bamboo_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "barrel": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 6
+        },
+        {
+          "item": "oak_slab",
+          "quantity": 2
+        }
+      ]
+    },
+    "beetroot_soup": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "beetroot",
+          "quantity": 6
+        },
+        {
+          "item": "bowl",
+          "quantity": 1
+        }
+      ]
+    },
+    "birch_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "birch_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "birch_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "birch_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "birch_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "birch_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "birch_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "birch_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "birch_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "birch_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "birch_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "birch_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "birch_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "birch_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "birch_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "birch_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "birch_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "birch_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "birch_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "black_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "black_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "black_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "black_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "black_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "black_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "black_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "black_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "black_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "black_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "black_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "black_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "black_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "black_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "black_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "black_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "black_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "black_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "black_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "black_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "blaze_powder": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "blaze_rod",
+          "quantity": 1
+        }
+      ]
+    },
+    "blue_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "blue_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "blue_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "blue_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "blue_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "blue_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "blue_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "blue_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "blue_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "blue_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "blue_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "blue_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "blue_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "blue_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "blue_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "blue_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "bone_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bone_meal",
+          "quantity": 9
+        }
+      ]
+    },
+    "bone_meal": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "bone",
+          "quantity": 1
+        }
+      ]
+    },
+    "book": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "paper",
+          "quantity": 3
+        },
+        {
+          "item": "leather",
+          "quantity": 1
+        }
+      ]
+    },
+    "bookshelf": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "book",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "bow": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stick",
+          "quantity": 3
+        },
+        {
+          "item": "string",
+          "quantity": 3
+        }
+      ]
+    },
+    "bowl": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "bread": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "wheat",
+          "quantity": 3
+        }
+      ]
+    },
+    "brick": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "clay",
+          "quantity": 1
+        }
+      ]
+    },
+    "bricks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "brick",
+          "quantity": 4
+        }
+      ]
+    },
+    "brown_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "brown_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "brown_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "brown_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "brown_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "brown_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "brown_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "brown_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "brown_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "brown_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "brown_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "brown_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "brown_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "brown_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "brown_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "brown_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "brown_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "brown_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "brown_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "brown_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "bucket": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 3
+        }
+      ]
+    },
+    "bundle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "rabbit_hide",
+          "quantity": 6
+        },
+        {
+          "item": "string",
+          "quantity": 2
+        }
+      ]
+    },
+    "cake": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "milk_bucket",
+          "quantity": 3
+        },
+        {
+          "item": "sugar",
+          "quantity": 2
+        },
+        {
+          "item": "egg",
+          "quantity": 1
+        },
+        {
+          "item": "wheat",
+          "quantity": 3
+        }
+      ]
+    },
+    "campfire": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stick",
+          "quantity": 3
+        },
+        {
+          "item": "coal",
+          "quantity": 1
+        },
+        {
+          "item": "oak_log",
+          "quantity": 3
+        }
+      ]
+    },
+    "carrot_on_a_stick": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "fishing_rod",
+          "quantity": 1
+        },
+        {
+          "item": "carrot",
+          "quantity": 1
+        }
+      ]
+    },
+    "cauldron": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 7
+        }
+      ]
+    },
+    "chain": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 1
+        },
+        {
+          "item": "iron_nugget",
+          "quantity": 2
+        }
+      ]
+    },
+    "chainmail_boots": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "chain",
+          "quantity": 4
+        }
+      ]
+    },
+    "chainmail_chestplate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "chain",
+          "quantity": 8
+        }
+      ]
+    },
+    "chainmail_helmet": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "chain",
+          "quantity": 5
+        }
+      ]
+    },
+    "chainmail_leggings": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "chain",
+          "quantity": 7
+        }
+      ]
+    },
+    "charcoal": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "cherry_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "cherry_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "cherry_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cherry_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "cherry_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "cherry_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "cherry_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "cherry_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "cherry_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "cherry_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "cherry_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "cherry_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "cherry_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "cherry_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "cherry_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "cherry_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "cherry_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "cherry_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "cherry_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "chest": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 8
+        }
+      ]
+    },
+    "clay_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "clay",
+          "quantity": 4
+        }
+      ]
+    },
+    "clock": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 4
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "coal_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "coal",
+          "quantity": 9
+        }
+      ]
+    },
+    "coarse_dirt": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "dirt",
+          "quantity": 2
+        },
+        {
+          "item": "gravel",
+          "quantity": 2
+        }
+      ]
+    },
+    "compass": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 4
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "composter": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_slab",
+          "quantity": 7
+        }
+      ]
+    },
+    "conduit": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "nautilus_shell",
+          "quantity": 8
+        },
+        {
+          "item": "heart_of_the_sea",
+          "quantity": 1
+        }
+      ]
+    },
+    "cooked_beef": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "beef",
+          "quantity": 1
+        }
+      ]
+    },
+    "cooked_chicken": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "chicken",
+          "quantity": 1
+        }
+      ]
+    },
+    "cooked_cod": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cod",
+          "quantity": 1
+        }
+      ]
+    },
+    "cooked_mutton": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "mutton",
+          "quantity": 1
+        }
+      ]
+    },
+    "cooked_porkchop": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "porkchop",
+          "quantity": 1
+        }
+      ]
+    },
+    "cooked_rabbit": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "rabbit",
+          "quantity": 1
+        }
+      ]
+    },
+    "cooked_salmon": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "salmon",
+          "quantity": 1
+        }
+      ]
+    },
+    "cookie": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "wheat",
+          "quantity": 2
+        },
+        {
+          "item": "cocoa_beans",
+          "quantity": 1
+        }
+      ]
+    },
+    "copper_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "copper_ingot",
+          "quantity": 9
+        }
+      ]
+    },
+    "copper_ingot": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "raw_copper",
+          "quantity": 1
+        }
+      ]
+    },
+    "cracked_nether_bricks": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "nether_bricks",
+          "quantity": 1
+        }
+      ]
+    },
+    "crafter": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 5
+        },
+        {
+          "item": "crafting_table",
+          "quantity": 1
+        },
+        {
+          "item": "dropper",
+          "quantity": 2
+        },
+        {
+          "item": "redstone",
+          "quantity": 2
+        }
+      ]
+    },
+    "crafting_table": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 4
+        }
+      ]
+    },
+    "crimson_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "crimson_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "crimson_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "crimson_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "crimson_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "crimson_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "crimson_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "crimson_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "crimson_stem",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "crimson_hyphae": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "crimson_stem",
+          "quantity": 4
+        }
+      ]
+    },
+    "crimson_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "crimson_stem",
+          "quantity": 1
+        }
+      ]
+    },
+    "crimson_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "crimson_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "crimson_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "crimson_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "crimson_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "crimson_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "crossbow": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stick",
+          "quantity": 3
+        },
+        {
+          "item": "string",
+          "quantity": 2
+        },
+        {
+          "item": "iron_ingot",
+          "quantity": 1
+        },
+        {
+          "item": "tripwire_hook",
+          "quantity": 1
+        }
+      ]
+    },
+    "cut_copper": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "copper_block",
+          "quantity": 1
+        }
+      ]
+    },
+    "cut_copper_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "cut_copper",
+          "quantity": 3
+        }
+      ]
+    },
+    "cut_copper_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "cut_copper",
+          "quantity": 6
+        }
+      ]
+    },
+    "cyan_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cyan_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "cyan_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cyan_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "cyan_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "cyan_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "cyan_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "cyan_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "cyan_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "cyan_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "cyan_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cyan_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "cyan_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "cyan_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "cyan_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "cyan_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "cyan_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "cyan_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "cyan_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "cyan_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "dark_oak_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "dark_oak_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "dark_oak_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "dark_oak_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "dark_oak_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "dark_oak_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "dark_oak_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "dark_oak_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "dark_oak_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "dark_oak_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "dark_oak_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "dark_oak_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "dark_oak_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "dark_oak_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "dark_oak_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "dark_oak_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "dark_oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "dark_oak_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "dark_oak_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "detector_rail": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 6
+        },
+        {
+          "item": "stone_pressure_plate",
+          "quantity": 1
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "diamond_axe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "diamond_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 9
+        }
+      ]
+    },
+    "diamond_boots": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 4
+        }
+      ]
+    },
+    "diamond_chestplate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 8
+        }
+      ]
+    },
+    "diamond_helmet": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 5
+        }
+      ]
+    },
+    "diamond_hoe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "diamond_leggings": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 7
+        }
+      ]
+    },
+    "diamond_pickaxe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "diamond_shovel": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "diamond_sword": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "diamond",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "dispenser": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bow",
+          "quantity": 1
+        },
+        {
+          "item": "cobblestone",
+          "quantity": 7
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "dried_kelp_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "dried_kelp",
+          "quantity": 9
+        }
+      ]
+    },
+    "dropper": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 7
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "emerald_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "emerald",
+          "quantity": 9
+        }
+      ]
+    },
+    "ender_chest": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "obsidian",
+          "quantity": 8
+        },
+        {
+          "item": "ender_eye",
+          "quantity": 1
+        }
+      ]
+    },
+    "ender_eye": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "ender_pearl",
+          "quantity": 1
+        },
+        {
+          "item": "blaze_powder",
+          "quantity": 1
+        }
+      ]
+    },
+    "exposed_cut_copper_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "exposed_cut_copper",
+          "quantity": 3
+        }
+      ]
+    },
+    "exposed_cut_copper_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "exposed_cut_copper",
+          "quantity": 6
+        }
+      ]
+    },
+    "fishing_rod": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stick",
+          "quantity": 3
+        },
+        {
+          "item": "string",
+          "quantity": 2
+        }
+      ]
+    },
+    "flint_and_steel": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 1
+        },
+        {
+          "item": "flint",
+          "quantity": 1
+        }
+      ]
+    },
+    "flower_pot": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "brick",
+          "quantity": 3
+        }
+      ]
+    },
+    "glow_item_frame": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "item_frame",
+          "quantity": 1
+        },
+        {
+          "item": "glow_ink_sac",
+          "quantity": 1
+        }
+      ]
+    },
+    "glowstone": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "glowstone_dust",
+          "quantity": 4
+        }
+      ]
+    },
+    "gold_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 9
+        }
+      ]
+    },
+    "gold_ingot": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "raw_gold",
+          "quantity": 1
+        }
+      ]
+    },
+    "golden_apple": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "apple",
+          "quantity": 1
+        },
+        {
+          "item": "gold_ingot",
+          "quantity": 8
+        }
+      ]
+    },
+    "golden_axe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "golden_boots": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 4
+        }
+      ]
+    },
+    "golden_carrot": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "carrot",
+          "quantity": 1
+        },
+        {
+          "item": "gold_nugget",
+          "quantity": 8
+        }
+      ]
+    },
+    "golden_chestplate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 8
+        }
+      ]
+    },
+    "golden_helmet": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 5
+        }
+      ]
+    },
+    "golden_hoe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "golden_leggings": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 7
+        }
+      ]
+    },
+    "golden_pickaxe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "golden_shovel": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "golden_sword": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "gray_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gray_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "gray_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gray_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "gray_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "gray_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "gray_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "gray_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "gray_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "gray_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "gray_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "gray_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "gray_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "gray_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "gray_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "gray_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "green_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "green_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "green_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "green_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "green_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "green_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "green_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "green_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "green_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "green_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "green_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "green_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "green_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "green_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "green_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "green_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "green_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "green_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "green_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "green_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "hay_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "wheat",
+          "quantity": 9
+        }
+      ]
+    },
+    "honey_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "honey_bottle",
+          "quantity": 4
+        }
+      ]
+    },
+    "hopper": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 5
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "horse_armor_leather": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "leather",
+          "quantity": 7
+        }
+      ]
+    },
+    "iron_axe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "iron_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 9
+        }
+      ]
+    },
+    "iron_boots": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 4
+        }
+      ]
+    },
+    "iron_chestplate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 8
+        }
+      ]
+    },
+    "iron_helmet": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 5
+        }
+      ]
+    },
+    "iron_hoe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "iron_ingot": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "raw_iron",
+          "quantity": 1
+        }
+      ]
+    },
+    "iron_leggings": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 7
+        }
+      ]
+    },
+    "iron_pickaxe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "iron_shovel": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "iron_sword": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "item_frame": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stick",
+          "quantity": 8
+        },
+        {
+          "item": "leather",
+          "quantity": 1
+        }
+      ]
+    },
+    "jukebox": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 8
+        },
+        {
+          "item": "diamond",
+          "quantity": 1
+        }
+      ]
+    },
+    "jungle_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "jungle_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "jungle_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "jungle_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "jungle_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "jungle_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "jungle_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "jungle_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "jungle_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "jungle_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "jungle_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "jungle_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "jungle_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "jungle_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "jungle_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "jungle_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "jungle_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "jungle_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "jungle_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "ladder": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "stick",
+          "quantity": 7
+        }
+      ]
+    },
+    "lantern": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "torch",
+          "quantity": 1
+        },
+        {
+          "item": "iron_nugget",
+          "quantity": 8
+        }
+      ]
+    },
+    "lapis_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "lapis_lazuli",
+          "quantity": 9
+        }
+      ]
+    },
+    "lead": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "string",
+          "quantity": 4
+        },
+        {
+          "item": "slime_ball",
+          "quantity": 1
+        }
+      ]
+    },
+    "leather_boots": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "leather",
+          "quantity": 4
+        }
+      ]
+    },
+    "leather_chestplate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "leather",
+          "quantity": 8
+        }
+      ]
+    },
+    "leather_helmet": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "leather",
+          "quantity": 5
+        }
+      ]
+    },
+    "leather_leggings": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "leather",
+          "quantity": 7
+        }
+      ]
+    },
+    "lectern": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "bookshelf",
+          "quantity": 1
+        },
+        {
+          "item": "oak_slab",
+          "quantity": 4
+        }
+      ]
+    },
+    "lever": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_blue_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "light_blue_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_blue_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "light_blue_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "light_blue_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "light_blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_blue_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "light_blue_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "light_blue_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "light_blue_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "light_blue_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "light_blue_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_blue_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "light_blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_blue_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "light_blue_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "light_blue_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "light_blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_blue_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "light_blue_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_gray_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "light_gray_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_gray_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "light_gray_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "light_gray_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "light_gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_gray_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "light_gray_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "light_gray_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "light_gray_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "light_gray_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "light_gray_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_gray_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "light_gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_gray_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "light_gray_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "light_gray_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "light_gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "light_gray_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "light_gray_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "lightning_rod": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "copper_ingot",
+          "quantity": 3
+        }
+      ]
+    },
+    "lime_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "lime_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "lime_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "lime_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "lime_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "lime_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "lime_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "lime_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "lime_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "lime_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "lime_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "lime_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "lime_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "lime_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "lime_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "lime_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "lime_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "lime_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "lime_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "lime_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "magenta_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "magenta_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "magenta_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "magenta_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "magenta_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "magenta_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "magenta_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "magenta_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "magenta_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "magenta_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "magenta_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "magenta_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "magenta_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "magenta_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "magenta_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "magenta_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "magenta_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "magenta_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "magenta_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "magenta_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "magma_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "magma_cream",
+          "quantity": 4
+        }
+      ]
+    },
+    "magma_cream": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "slime_ball",
+          "quantity": 1
+        },
+        {
+          "item": "blaze_powder",
+          "quantity": 1
+        }
+      ]
+    },
+    "mangrove_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "mangrove_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "mangrove_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "mangrove_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "mangrove_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "mangrove_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "mangrove_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "mangrove_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "mangrove_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "mangrove_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "mangrove_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "mangrove_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "mangrove_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "mangrove_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "mangrove_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "mangrove_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "mangrove_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "mangrove_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "mangrove_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "minecart": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 5
+        }
+      ]
+    },
+    "minecart_with_chest": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "minecart",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "minecart_with_command_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "minecart",
+          "quantity": 1
+        }
+      ]
+    },
+    "minecart_with_hopper": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "minecart",
+          "quantity": 1
+        },
+        {
+          "item": "hopper",
+          "quantity": 1
+        }
+      ]
+    },
+    "minecart_with_tnt": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "minecart",
+          "quantity": 1
+        },
+        {
+          "item": "tnt",
+          "quantity": 1
+        }
+      ]
+    },
+    "moss_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "moss_block",
+          "quantity": 2
+        }
+      ]
+    },
+    "mud_bricks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "mud_brick",
+          "quantity": 4
+        }
+      ]
+    },
+    "name_tag": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "paper",
+          "quantity": 1
+        },
+        {
+          "item": "string",
+          "quantity": 1
+        }
+      ]
+    },
+    "nether_brick": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "netherrack",
+          "quantity": 1
+        }
+      ]
+    },
+    "nether_bricks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "nether_brick",
+          "quantity": 4
+        }
+      ]
+    },
+    "note_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 8
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "oak_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "oak_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "oak_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "oak_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "oak_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "oak_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "oak_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "oak_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "oak_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "oak_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "oak_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "oak_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "oak_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "oak_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "oak_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "oak_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "oak_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "orange_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "orange_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "orange_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "orange_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "orange_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "orange_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "orange_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "orange_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "orange_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "orange_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "orange_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "orange_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "orange_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "orange_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "orange_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "orange_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "orange_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "orange_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "orange_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "orange_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "oxidized_cut_copper_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "oxidized_cut_copper",
+          "quantity": 3
+        }
+      ]
+    },
+    "oxidized_cut_copper_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "oxidized_cut_copper",
+          "quantity": 6
+        }
+      ]
+    },
+    "pale_oak_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "pale_oak_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "pale_oak_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pale_oak_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "pale_oak_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "pale_oak_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "pale_oak_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "pale_oak_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "pale_oak_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "pale_oak_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "pale_oak_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "pale_oak_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "pale_oak_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "pale_oak_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "pale_oak_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "pale_oak_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "pale_oak_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "pale_oak_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "pale_oak_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "paper": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "sugar_cane",
+          "quantity": 3
+        }
+      ]
+    },
+    "pink_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pink_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "pink_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pink_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "pink_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "pink_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "pink_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "pink_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "pink_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "pink_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "pink_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pink_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "pink_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "pink_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "pink_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "pink_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "pink_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "pink_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "pink_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "pink_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "piston": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        },
+        {
+          "item": "cobblestone",
+          "quantity": 4
+        },
+        {
+          "item": "iron_ingot",
+          "quantity": 1
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "powered_rail": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "gold_ingot",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "pumpkin_pie": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "pumpkin",
+          "quantity": 1
+        },
+        {
+          "item": "sugar",
+          "quantity": 1
+        },
+        {
+          "item": "egg",
+          "quantity": 1
+        }
+      ]
+    },
+    "purple_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "purple_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "purple_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "purple_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "purple_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "purple_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "purple_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "purple_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "purple_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "purple_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "purple_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "purple_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "purple_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "purple_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "purple_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "purple_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "purple_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "purple_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "purple_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "purple_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "quartz_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "quartz",
+          "quantity": 4
+        }
+      ]
+    },
+    "rail": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "recovery_compass": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "compass",
+          "quantity": 1
+        },
+        {
+          "item": "echo_shard",
+          "quantity": 8
+        }
+      ]
+    },
+    "red_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "red_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "red_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "red_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "red_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "red_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "red_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "red_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "red_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "red_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "red_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "red_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "red_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "red_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "red_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "red_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "red_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "red_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "red_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "red_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "redstone_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "redstone",
+          "quantity": 9
+        }
+      ]
+    },
+    "redstone_lamp": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "glowstone",
+          "quantity": 1
+        },
+        {
+          "item": "redstone",
+          "quantity": 4
+        }
+      ]
+    },
+    "redstone_torch": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stick",
+          "quantity": 1
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "repeater": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stone",
+          "quantity": 3
+        },
+        {
+          "item": "redstone_torch",
+          "quantity": 2
+        },
+        {
+          "item": "redstone",
+          "quantity": 1
+        }
+      ]
+    },
+    "resin_brick": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "resin_clump",
+          "quantity": 1
+        }
+      ]
+    },
+    "resin_bricks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "resin_brick",
+          "quantity": 4
+        }
+      ]
+    },
+    "scaffolding": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "bamboo",
+          "quantity": 6
+        },
+        {
+          "item": "string",
+          "quantity": 1
+        }
+      ]
+    },
+    "sea_lantern": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "prismarine_shard",
+          "quantity": 4
+        },
+        {
+          "item": "prismarine_crystals",
+          "quantity": 5
+        }
+      ]
+    },
+    "shears": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 2
+        }
+      ]
+    },
+    "shield": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 6
+        },
+        {
+          "item": "iron_ingot",
+          "quantity": 1
+        }
+      ]
+    },
+    "slime_block": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "slime_ball",
+          "quantity": 9
+        }
+      ]
+    },
+    "smithing_table": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 4
+        }
+      ]
+    },
+    "smooth_stone": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stone",
+          "quantity": 1
+        }
+      ]
+    },
+    "soul_lantern": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "lantern",
+          "quantity": 1
+        },
+        {
+          "item": "soul_torch",
+          "quantity": 1
+        }
+      ]
+    },
+    "soul_torch": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "torch",
+          "quantity": 4
+        },
+        {
+          "item": "soul_soil",
+          "quantity": 1
+        }
+      ]
+    },
+    "spectral_arrow": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "arrow",
+          "quantity": 1
+        },
+        {
+          "item": "glowstone_dust",
+          "quantity": 4
+        }
+      ]
+    },
+    "spruce_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "spruce_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "spruce_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "spruce_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "spruce_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "spruce_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "spruce_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "spruce_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "spruce_log",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "spruce_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "spruce_log",
+          "quantity": 1
+        }
+      ]
+    },
+    "spruce_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "spruce_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "spruce_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "spruce_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "spruce_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "spruce_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "spruce_wood": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "spruce_log",
+          "quantity": 4
+        }
+      ]
+    },
+    "spyglass": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "copper_ingot",
+          "quantity": 2
+        },
+        {
+          "item": "amethyst_shard",
+          "quantity": 1
+        }
+      ]
+    },
+    "stick": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "sticky_piston": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "piston",
+          "quantity": 1
+        },
+        {
+          "item": "slime_ball",
+          "quantity": 1
+        }
+      ]
+    },
+    "stone": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 1
+        }
+      ]
+    },
+    "stone_axe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "stone_bricks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "stone",
+          "quantity": 4
+        }
+      ]
+    },
+    "stone_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stone",
+          "quantity": 1
+        }
+      ]
+    },
+    "stone_hoe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "stone_pickaxe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "stone_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "stone",
+          "quantity": 2
+        }
+      ]
+    },
+    "stone_shovel": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "stone_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "stone",
+          "quantity": 3
+        }
+      ]
+    },
+    "stone_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "stone",
+          "quantity": 6
+        }
+      ]
+    },
+    "stone_sword": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "cobblestone",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "sugar": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "sugar_cane",
+          "quantity": 1
+        }
+      ]
+    },
+    "target": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "hay_block",
+          "quantity": 1
+        },
+        {
+          "item": "redstone",
+          "quantity": 4
+        }
+      ]
+    },
+    "terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "clay_block",
+          "quantity": 1
+        }
+      ]
+    },
+    "torch": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "coal",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "tripwire_hook": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "iron_ingot",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "warped_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 5
+        }
+      ]
+    },
+    "warped_button": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 1
+        }
+      ]
+    },
+    "warped_chest_boat": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "warped_boat",
+          "quantity": 1
+        },
+        {
+          "item": "chest",
+          "quantity": 1
+        }
+      ]
+    },
+    "warped_door": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "warped_fence": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 4
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "warped_fence_gate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 4
+        }
+      ]
+    },
+    "warped_hanging_sign": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "warped_stem",
+          "quantity": 2
+        },
+        {
+          "item": "chain",
+          "quantity": 2
+        }
+      ]
+    },
+    "warped_hyphae": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "warped_stem",
+          "quantity": 4
+        }
+      ]
+    },
+    "warped_planks": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "warped_stem",
+          "quantity": 1
+        }
+      ]
+    },
+    "warped_pressure_plate": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 2
+        }
+      ]
+    },
+    "warped_sign": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "warped_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "warped_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "warped_trapdoor": {
+      "outputQuantity": 2,
+      "ingredients": [
+        {
+          "item": "warped_planks",
+          "quantity": 6
+        }
+      ]
+    },
+    "weathered_cut_copper_slab": {
+      "outputQuantity": 6,
+      "ingredients": [
+        {
+          "item": "weathered_cut_copper",
+          "quantity": 3
+        }
+      ]
+    },
+    "weathered_cut_copper_stairs": {
+      "outputQuantity": 4,
+      "ingredients": [
+        {
+          "item": "weathered_cut_copper",
+          "quantity": 6
+        }
+      ]
+    },
+    "white_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "white_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "white_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "white_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "white_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "white_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "white_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "white_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "white_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "white_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "white_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "white_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "white_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "white_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "white_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "string",
+          "quantity": 4
+        }
+      ]
+    },
+    "wooden_axe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "wooden_hoe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "wooden_pickaxe": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "wooden_shovel": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 1
+        },
+        {
+          "item": "stick",
+          "quantity": 2
+        }
+      ]
+    },
+    "wooden_sword": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "oak_planks",
+          "quantity": 2
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "writable_book": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "book",
+          "quantity": 1
+        },
+        {
+          "item": "ink_sac",
+          "quantity": 1
+        },
+        {
+          "item": "feather",
+          "quantity": 1
+        }
+      ]
+    },
+    "yellow_banner": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "yellow_wool",
+          "quantity": 6
+        },
+        {
+          "item": "stick",
+          "quantity": 1
+        }
+      ]
+    },
+    "yellow_bed": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "yellow_wool",
+          "quantity": 3
+        },
+        {
+          "item": "oak_planks",
+          "quantity": 3
+        }
+      ]
+    },
+    "yellow_candle": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "candle",
+          "quantity": 1
+        },
+        {
+          "item": "yellow_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "yellow_carpet": {
+      "outputQuantity": 3,
+      "ingredients": [
+        {
+          "item": "yellow_wool",
+          "quantity": 2
+        }
+      ]
+    },
+    "yellow_concrete": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "yellow_concrete_powder",
+          "quantity": 8
+        }
+      ]
+    },
+    "yellow_glazed_terracotta": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "yellow_terracotta",
+          "quantity": 1
+        }
+      ]
+    },
+    "yellow_shulker_box": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "shulker_box",
+          "quantity": 1
+        },
+        {
+          "item": "yellow_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "yellow_stained_glass_pane": {
+      "outputQuantity": 16,
+      "ingredients": [
+        {
+          "item": "yellow_stained_glass",
+          "quantity": 6
+        }
+      ]
+    },
+    "yellow_terracotta": {
+      "outputQuantity": 8,
+      "ingredients": [
+        {
+          "item": "terracotta",
+          "quantity": 8
+        },
+        {
+          "item": "yellow_dye",
+          "quantity": 1
+        }
+      ]
+    },
+    "yellow_wool": {
+      "outputQuantity": 1,
+      "ingredients": [
+        {
+          "item": "white_wool",
+          "quantity": 1
+        },
+        {
+          "item": "yellow_dye",
+          "quantity": 1
+        }
+      ]
+    }
+  }
