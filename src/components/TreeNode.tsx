@@ -85,13 +85,14 @@ function TreeNode({
   return (
     <li>
       <div className={`tree-node-box ${isRoot ? "root-node" : ""}`}>
-        {itemData?.icon && (
-          <img
-            src={itemData.icon}
-            alt={itemName}
-            className="tree-icon"
-          />
-        )}
+      <img
+        src={`/icons/${node.item}.png`}
+        alt={itemName}
+        className="tree-icon"
+        onError={(e) => {
+          (e.currentTarget as HTMLImageElement).style.display = "none";
+        }}
+      />
         {itemName} -{" "}
         {formatQuantity(
           node.quantity,

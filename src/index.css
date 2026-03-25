@@ -100,6 +100,7 @@ h1 {
     margin: 20px 0;
   }
 }
+
 h2 {
   font-size: 24px;
   line-height: 118%;
@@ -109,6 +110,7 @@ h2 {
     font-size: 20px;
   }
 }
+
 p {
   margin: 0;
 }
@@ -164,14 +166,62 @@ code {
 .result-card {
   width: fit-content;
   max-width: 90%;
-
   padding: 20px;
-
   border-radius: 18px;
   background: var(--code-bg);
   box-shadow: var(--shadow);
-
   text-align: left;
+  transition:
+    transform 0.22s ease,
+    opacity 0.22s ease,
+    filter 0.22s ease;
+}
+
+.result-card {
+  position: relative; /* IMPORTANT for overlay */
+}
+
+/* floating checkbox */
+.result-check-overlay {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(35, 35, 35, 0.7); /* 👈 translucent */
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  padding: 6px;
+  box-shadow: var(--shadow);
+
+  cursor: pointer;
+}
+
+/* bigger checkbox */
+.result-check-overlay input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+/* optional hover feel */
+.result-check-overlay:hover {
+  transform: scale(1.05);
+}
+
+.result-card-complete {
+  opacity: 0.72;
+}
+
+.result-card-animating-out {
+  opacity: 0;
+  transform: translateY(-10px) scale(0.985);
+  filter: blur(2px);
 }
 
 .footer {
@@ -246,4 +296,171 @@ code {
 
 .checkbox-option input[type="checkbox"] {
   cursor: pointer;
+}
+
+.raw-summary-dropdown {
+  width: min(600px, 92%);
+  margin: 0 auto 28px auto;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--code-bg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.raw-summary-dropdown summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: 600;
+  color: var(--text-h);
+  text-align: left;
+  user-select: none;
+}
+
+.raw-summary-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.raw-summary-dropdown summary::after {
+  content: "▾";
+  float: right;
+  transition: transform 0.22s ease;
+}
+
+.raw-summary-dropdown[open] summary::after {
+  transform: rotate(180deg);
+}
+
+/* animated wrapper */
+.raw-summary-list {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition:
+    grid-template-rows 0.25s ease,
+    opacity 0.2s ease;
+  opacity: 0;
+}
+
+.raw-summary-dropdown[open] .raw-summary-list {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+/* inner content that actually collapses */
+.raw-summary-list-inner {
+  overflow: hidden;
+  border-top: 1px solid var(--border);
+  padding: 0;
+}
+
+/* animate the content itself a bit too */
+.raw-summary-list-content {
+  transform: translateY(-6px);
+  transition: transform 0.25s ease;
+  padding: 8px 0;
+}
+
+.raw-summary-dropdown {
+  width: min(600px, 92%);
+  margin: 0 auto 28px auto;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--code-bg);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.raw-summary-toggle {
+  width: 100%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-h);
+  text-align: left;
+  user-select: none;
+}
+
+.raw-summary-toggle::after {
+  content: "▾";
+  float: right;
+  transition: transform 0.25s ease;
+}
+
+.raw-summary-open .raw-summary-toggle::after {
+  transform: rotate(180deg);
+}
+
+.raw-summary-list {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition:
+    grid-template-rows 0.28s ease,
+    opacity 0.22s ease;
+}
+
+.raw-summary-open .raw-summary-list {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.raw-summary-list-inner {
+  overflow: hidden;
+  border-top: 1px solid var(--border);
+}
+
+.raw-summary-list-content {
+  transform: translateY(-8px);
+  transition: transform 0.28s ease;
+  padding: 8px 0;
+}
+
+.raw-summary-open .raw-summary-list-content {
+  transform: translateY(0);
+}
+
+.raw-summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+  color: var(--text-h);
+  text-align: left;
+  white-space: pre-line;
+}
+
+.raw-summary-item:not(:last-child) {
+  border-bottom: 1px solid var(--border);
+}
+
+.raw-summary-item-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.raw-summary-name {
+  font-weight: 500;
+}
+
+.raw-summary-quantity {
+  text-align: right;
+  white-space: pre-line;
+}
+
+@media (max-width: 700px) {
+  .raw-summary-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .raw-summary-quantity {
+    text-align: left;
+  }
 }

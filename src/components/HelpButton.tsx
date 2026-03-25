@@ -18,19 +18,22 @@ function HelpButton() {
         <div className="help-panel">
           <h3>Help & Tips</h3>
           <p>
-            Upload a Litematica materials CSV to generate crafting breakdown
-            trees.
+            Upload a <u>Litematica</u> materials list CSV file to generate your crafting breakdown.
           </p>
           <p>
-            The app reads the item name and total quantity from each CSV line.
+            To get a CSV, hold down Shift and click Save to File in Litematica.
           </p>
           <p>
-            Items marked as raw stop the breakdown there. Crafted items continue
-            recursively until they reach raw materials.
+            The program will generate trees for each item, sorted from highest
+            quantity to lowest.
           </p>
           <p>
-            This version currently uses exact math for quantities and shows a
-            per-item breakdown tree.
+            Select <u>"Round Crafting Items*"</u> to round base ingredients to the
+            minimum required whole number to craft.
+          </p>
+          <p>
+            Select <u>"Simplify Large Quantities"</u> to reduce the quantity
+            to either stacks or shulker boxes, whichever is smaller.
           </p>
         </div>
       )}
