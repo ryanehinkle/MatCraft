@@ -18,7 +18,14 @@ function HelpButton() {
         <div className="help-panel">
           <h3>Help & Tips</h3>
           <p>
-            Upload a <u>Litematica</u> materials list CSV file to generate your crafting breakdown.
+            Upload a <u><a
+            href="https://www.curseforge.com/minecraft/mc-mods/litematica"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="help-link"
+          >
+            Litematica
+          </a></u> materials list CSV file to generate your crafting breakdown.
           </p>
           <p>
             To get a CSV, hold down Shift and click Save to File in Litematica.

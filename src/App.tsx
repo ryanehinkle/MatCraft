@@ -5,6 +5,7 @@ import BreakdownTree from "./components/BreakdownTree";
 import UploadCsv from "./components/UploadCSV";
 import HelpButton from "./components/HelpButton";
 import type { BreakdownNode } from "./types/BreakdownNode";
+import ContactButton from "./components/ContactButton";
 
 type CsvItem = {
   name: string;
@@ -23,6 +24,20 @@ type RawMaterialTotal = {
   quantity: number;
 };
 
+type RecipeIngredient = {
+  item: string;
+  quantity: number;
+};
+
+type RecipeOption = {
+  outputQuantity: number;
+  ingredients: RecipeIngredient[];
+};
+
+type RecipeEntry = RecipeOption & {
+  alternatives?: RecipeOption[];
+};
+
 function getItemIdFromName(name: string): string | null {
   for (const [id, item] of Object.entries(items)) {
     if (item.name === name) {
@@ -32,7 +47,44 @@ function getItemIdFromName(name: string): string | null {
   return null;
 }
 
-function buildBreakdownTree(itemId: string, quantity: number): BreakdownNode {
+function getIconPath(itemId: string): string {
+  let iconItemId = itemId;
+
+  // strip prefixes that don't affect visuals
+  if (iconItemId.startsWith("waxed_")) {
+    iconItemId = iconItemId.replace(/^waxed_/, "");
+  }
+
+  if (iconItemId.startsWith("infested_")) {
+    iconItemId = iconItemId.replace(/^infested_/, "");
+  }
+
+  return `/icons/${iconItemId}.png`;
+}
+
+function getRecipeOptions(itemId: string): RecipeOption[] {
+  const recipeEntry = recipes[itemId as keyof typeof recipes] as
+    | RecipeEntry
+    | undefined;
+
+  if (!recipeEntry) {
+    return [];
+  }
+
+  return [
+    {
+      outputQuantity: recipeEntry.outputQuantity,
+      ingredients: recipeEntry.ingredients,
+    },
+    ...(recipeEntry.alternatives ?? []),
+  ];
+}
+
+function buildBreakdownTree(
+  itemId: string,
+  quantity: number,
+  selectedRecipeIndexes: Record<string, number>
+): BreakdownNode {
   const itemData = items[itemId as keyof typeof items];
 
   if (!itemData) {
@@ -43,16 +95,27 @@ function buildBreakdownTree(itemId: string, quantity: number): BreakdownNode {
     return { item: itemId, quantity, children: [] };
   }
 
-  const recipe = recipes[itemId as keyof typeof recipes];
+  const recipeOptions = getRecipeOptions(itemId);
 
-  if (!recipe) {
+  if (recipeOptions.length === 0) {
+    return { item: itemId, quantity, children: [] };
+  }
+
+  const selectedIndex = selectedRecipeIndexes[itemId] ?? 0;
+  const recipe = recipeOptions[selectedIndex] ?? recipeOptions[0];
+
+  if (!recipe || recipe.ingredients.length === 0) {
     return { item: itemId, quantity, children: [] };
   }
 
   const multiplier = quantity / recipe.outputQuantity;
 
   const children = recipe.ingredients.map((ingredient) =>
-    buildBreakdownTree(ingredient.item, ingredient.quantity * multiplier)
+    buildBreakdownTree(
+      ingredient.item,
+      ingredient.quantity * multiplier,
+      selectedRecipeIndexes
+    )
   );
 
   return {
@@ -115,11 +178,11 @@ function formatQuantity(
     roundCraftingItems && !Number.isInteger(quantity) ? "*" : "";
 
   if (!simplifyLargeQuantities) {
-    return `${baseQuantity}${roundedMark}`;
+    return `${Number(baseQuantity.toFixed(2))}${roundedMark}`;
   }
 
   if (stackSize === 1) {
-    return `${baseQuantity}${roundedMark}`;
+    return `${Number(baseQuantity.toFixed(2))}${roundedMark}`;
   }
 
   return `${formatSimplifiedQuantity(baseQuantity, stackSize)}${roundedMark}`;
@@ -127,29 +190,46 @@ function formatQuantity(
 
 function collectRawMaterials(
   node: BreakdownNode,
-  totals: Record<string, number>
+  totals: Record<string, number>,
+  manuallyRawItems: Record<string, boolean>
 ): void {
   const itemData = items[node.item as keyof typeof items];
+  const isManuallyRaw = !!manuallyRawItems[node.item];
 
-  if (!itemData || itemData.isRaw || node.children.length === 0) {
+  if (
+    !itemData ||
+    itemData.isRaw ||
+    isManuallyRaw ||
+    node.children.length === 0
+  ) {
     totals[node.item] = (totals[node.item] ?? 0) + node.quantity;
     return;
   }
 
   for (const child of node.children) {
-    collectRawMaterials(child, totals);
+    collectRawMaterials(child, totals, manuallyRawItems);
   }
 }
 
 function App() {
-  const [breakdownResults, setBreakdownResults] = useState<BreakdownResult[]>(
-    []
-  );
-  const [roundCraftingItems, setRoundCraftingItems] = useState(false);
+  const [parsedItems, setParsedItems] = useState<CsvItem[]>([]);
+  const [roundCraftingItems, setRoundCraftingItems] = useState(true);
   const [simplifyLargeQuantities, setSimplifyLargeQuantities] = useState(false);
   const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>({});
   const [animatingOutId, setAnimatingOutId] = useState<string | null>(null);
   const [isRawSummaryOpen, setIsRawSummaryOpen] = useState(false);
+  const [checkedRawItems, setCheckedRawItems] = useState<
+    Record<string, boolean>
+  >({});
+  const [animatingRawOutId, setAnimatingRawOutId] = useState<string | null>(
+    null
+  );
+  const [manuallyRawItems, setManuallyRawItems] = useState<
+    Record<string, boolean>
+  >({});
+  const [selectedRecipeIndexes, setSelectedRecipeIndexes] = useState<
+    Record<string, number>
+  >({});
 
   function handleFileSelect(file: File) {
     const reader = new FileReader();
@@ -174,30 +254,14 @@ function App() {
 
         parsed.sort((a, b) => b.quantity - a.quantity);
 
-        const results: BreakdownResult[] = parsed.map((item, index) => {
-          const itemId = getItemIdFromName(item.name);
-
-          if (!itemId) {
-            return {
-              id: `${item.name}-${index}`,
-              sourceName: item.name,
-              sourceQuantity: item.quantity,
-              tree: null,
-            };
-          }
-
-          return {
-            id: `${item.name}-${index}`,
-            sourceName: item.name,
-            sourceQuantity: item.quantity,
-            tree: buildBreakdownTree(itemId, item.quantity),
-          };
-        });
-
+        setCheckedRawItems({});
+        setAnimatingRawOutId(null);
         setCheckedItems({});
         setAnimatingOutId(null);
         setIsRawSummaryOpen(false);
-        setBreakdownResults(results);
+        setManuallyRawItems({});
+        setSelectedRecipeIndexes({});
+        setParsedItems(parsed);
       }
     };
 
@@ -225,12 +289,88 @@ function App() {
     }));
   }
 
+  function handleRawItemCheck(itemId: string, checked: boolean) {
+    if (checked) {
+      setAnimatingRawOutId(itemId);
+
+      window.setTimeout(() => {
+        setCheckedRawItems((prev) => ({
+          ...prev,
+          [itemId]: true,
+        }));
+        setAnimatingRawOutId(null);
+      }, 220);
+
+      return;
+    }
+
+    setCheckedRawItems((prev) => ({
+      ...prev,
+      [itemId]: false,
+    }));
+  }
+
+  function handleToggleManualRaw(itemId: string) {
+    setManuallyRawItems((prev) => ({
+      ...prev,
+      [itemId]: !prev[itemId],
+    }));
+  }
+
+  function handleCycleRecipe(itemId: string, direction: "prev" | "next") {
+    const recipeOptions = getRecipeOptions(itemId);
+
+    if (recipeOptions.length <= 1) {
+      return;
+    }
+
+    setSelectedRecipeIndexes((prev) => {
+      const currentIndex = prev[itemId] ?? 0;
+
+      const nextIndex =
+        direction === "next"
+          ? (currentIndex + 1) % recipeOptions.length
+          : (currentIndex - 1 + recipeOptions.length) % recipeOptions.length;
+
+      return {
+        ...prev,
+        [itemId]: nextIndex,
+      };
+    });
+  }
+
+  const breakdownResults = useMemo<BreakdownResult[]>(() => {
+    return parsedItems.map((item, index) => {
+      const itemId = getItemIdFromName(item.name);
+
+      if (!itemId) {
+        return {
+          id: `${item.name}-${index}`,
+          sourceName: item.name,
+          sourceQuantity: item.quantity,
+          tree: null,
+        };
+      }
+
+      return {
+        id: `${item.name}-${index}`,
+        sourceName: item.name,
+        sourceQuantity: item.quantity,
+        tree: buildBreakdownTree(
+          itemId,
+          item.quantity,
+          selectedRecipeIndexes
+        ),
+      };
+    });
+  }, [parsedItems, selectedRecipeIndexes]);
+
   const rawMaterialTotals = useMemo(() => {
     const totals: Record<string, number> = {};
 
     for (const result of breakdownResults) {
       if (result.tree) {
-        collectRawMaterials(result.tree, totals);
+        collectRawMaterials(result.tree, totals, manuallyRawItems);
       }
     }
 
@@ -248,7 +388,22 @@ function App() {
     });
 
     return rawItems;
-  }, [breakdownResults, roundCraftingItems]);
+  }, [breakdownResults, roundCraftingItems, manuallyRawItems]);
+
+  const displayedRawMaterialTotals = useMemo(() => {
+    return [...rawMaterialTotals].sort((a, b) => {
+      const aChecked = checkedRawItems[a.itemId] ? 1 : 0;
+      const bChecked = checkedRawItems[b.itemId] ? 1 : 0;
+
+      if (aChecked !== bChecked) {
+        return aChecked - bChecked;
+      }
+
+      const aDisplay = formatBaseQuantity(a.quantity, roundCraftingItems);
+      const bDisplay = formatBaseQuantity(b.quantity, roundCraftingItems);
+      return bDisplay - aDisplay;
+    });
+  }, [rawMaterialTotals, checkedRawItems, roundCraftingItems]);
 
   const displayedResults = useMemo(() => {
     return [...breakdownResults].sort((a, b) => {
@@ -266,6 +421,7 @@ function App() {
   return (
     <>
       <HelpButton />
+      <ContactButton />
 
       <div
         className={
@@ -324,22 +480,47 @@ function App() {
               <div className="raw-summary-list">
                 <div className="raw-summary-list-inner">
                   <div className="raw-summary-list-content">
-                    {rawMaterialTotals.map(({ itemId, quantity }) => {
+                    {displayedRawMaterialTotals.map(({ itemId, quantity }) => {
                       const itemData = items[itemId as keyof typeof items];
                       const itemName = itemData?.name ?? itemId;
                       const stackSize = itemData?.stackSize ?? 64;
+                      const isChecked = !!checkedRawItems[itemId];
+                      const isAnimatingOut = animatingRawOutId === itemId;
 
                       return (
-                        <div key={itemId} className="raw-summary-item">
+                        <div
+                          key={itemId}
+                          className={`raw-summary-item ${
+                            isChecked ? "raw-summary-item-complete" : ""
+                          } ${
+                            isAnimatingOut
+                              ? "raw-summary-item-animating-out"
+                              : ""
+                          }`}
+                        >
                           <div className="raw-summary-item-left">
-                          <img
-                            src={`/icons/${itemId}.png`}
-                            alt={itemName}
-                            className="tree-icon"
-                            onError={(e) => {
-                              (e.currentTarget as HTMLImageElement).style.display = "none";
-                            }}
-                          />
+                            <label className="raw-summary-check-inline">
+                              <input
+                                type="checkbox"
+                                checked={isChecked}
+                                onChange={(e) =>
+                                  handleRawItemCheck(itemId, e.target.checked)
+                                }
+                              />
+                            </label>
+
+                            <img
+                              src={getIconPath(itemId)}
+                              alt={itemName}
+                              className="tree-icon"
+                              onError={(e) => {
+                                console.warn(`Missing icon: ${getIconPath(itemId)}`);
+
+                                const img = e.currentTarget as HTMLImageElement;
+                                img.style.display = "none";
+                              }}
+                            />
+
                             <span className="raw-summary-name">{itemName}</span>
                           </div>
 
@@ -386,6 +567,10 @@ function App() {
                         tree={result.tree}
                         roundCraftingItems={roundCraftingItems}
                         simplifyLargeQuantities={simplifyLargeQuantities}
+                        manuallyRawItems={manuallyRawItems}
+                        onToggleManualRaw={handleToggleManualRaw}
+                        selectedRecipeIndexes={selectedRecipeIndexes}
+                        onCycleRecipe={handleCycleRecipe}
                       />
                     ) : (
                       <div>No breakdown available</div>

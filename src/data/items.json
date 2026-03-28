@@ -1,4 +1,9 @@
 {
+  "acacia_boat": {
+    "name": "Acacia Boat",
+    "stackSize": 1,
+    "isRaw": false
+  },
   "acacia_button": {
     "name": "Acacia Button",
     "stackSize": 64,
@@ -34,11 +39,6 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "acacia_logs": {
-    "name": "Acacia Log",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "acacia_planks": {
     "name": "Acacia Planks",
     "stackSize": 64,
@@ -57,7 +57,7 @@
   "acacia_shelf": {
     "name": "Acacia Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "acacia_sign": {
     "name": "Acacia Sign",
@@ -79,38 +79,18 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "acacia_wall_hanging_sign": {
-    "name": "Acacia Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "acacia_wall_sign": {
-    "name": "Acacia Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "acacia_wood": {
     "name": "Acacia Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "activator_rail": {
     "name": "Activator Rail",
     "stackSize": 64,
     "isRaw": false
   },
-  "air": {
-    "name": "Air",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "allium": {
     "name": "Allium",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "amethyst_block": {
-    "name": "Block of Amethyst",
     "stackSize": 64,
     "isRaw": true
   },
@@ -137,17 +117,17 @@
   "andesite_slab": {
     "name": "Andesite Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "andesite_stairs": {
     "name": "Andesite Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "andesite_wall": {
     "name": "Andesite Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "angler_pottery_sherd": {
     "name": "Angler Pottery Sherd",
@@ -157,7 +137,7 @@
   "anvil": {
     "name": "Anvil",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "apple": {
     "name": "Apple",
@@ -179,15 +159,10 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "attached_melon_stem": {
-    "name": "Attached Melon Stem",
+  "arrow": {
+    "name": "Arrow",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "attached_pumpkin_stem": {
-    "name": "Attached Pumpkin Stem",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "azalea": {
     "name": "Azalea",
@@ -214,7 +189,7 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "bamboo_block": {
+  "bamboo_button": {
     "name": "Bamboo Button",
     "stackSize": 64,
     "isRaw": false
@@ -247,12 +222,12 @@
   "bamboo_mosaic_slab": {
     "name": "Bamboo Mosaic Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "bamboo_mosaic_stairs": {
     "name": "Bamboo Mosaic Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "bamboo_planks": {
     "name": "Bamboo Planks",
@@ -264,15 +239,15 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "bamboo_sapling": {
-    "name": "Bamboo Shoot",
-    "stackSize": 64,
-    "isRaw": true
+  "bamboo_raft": {
+    "name": "Bamboo Raft",
+    "stackSize": 1,
+    "isRaw": false
   },
   "bamboo_shelf": {
     "name": "Bamboo Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "bamboo_sign": {
     "name": "Bamboo Sign",
@@ -294,16 +269,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "bamboo_wall_hanging_sign": {
-    "name": "Bamboo Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "bamboo_wall_sign": {
-    "name": "Bamboo Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "barrel": {
     "name": "Barrel",
     "stackSize": 64,
@@ -322,7 +287,7 @@
   "beacon": {
     "name": "Beacon",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "bedrock": {
     "name": "Bedrock",
@@ -337,15 +302,15 @@
   "beehive": {
     "name": "Beehive",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "beetroot": {
     "name": "Beetroot",
     "stackSize": 64,
     "isRaw": true
   },
-  "beetroots": {
-    "name": "Beetroots",
+  "beetroot_seeds": {
+    "name": "Beetroot Seeds",
     "stackSize": 64,
     "isRaw": true
   },
@@ -359,10 +324,10 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "big_dripleaf_stem": {
-    "name": "Big Dripleaf Stem",
-    "stackSize": 64,
-    "isRaw": true
+  "birch_boat": {
+    "name": "Birch Boat",
+    "stackSize": 1,
+    "isRaw": false
   },
   "birch_button": {
     "name": "Birch Button",
@@ -417,7 +382,7 @@
   "birch_shelf": {
     "name": "Birch Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "birch_sign": {
     "name": "Birch Sign",
@@ -439,20 +404,10 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "birch_wall_hanging_sign": {
-    "name": "Birch Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "birch_wall_sign": {
-    "name": "Birch Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "birch_wood": {
     "name": "Birch Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "black_banner": {
     "name": "Black Banner",
@@ -467,17 +422,12 @@
   "black_bundle": {
     "name": "Black Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "black_candle": {
     "name": "Black Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "black_candle_cake": {
-    "name": "Black Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "black_carpet": {
     "name": "Black Carpet",
@@ -497,7 +447,7 @@
   "black_dye": {
     "name": "Black Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "black_glazed_terracotta": {
     "name": "Black Glazed Terracotta",
@@ -524,11 +474,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "black_wall_banner": {
-    "name": "Black Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "black_wool": {
     "name": "Black Wool",
     "stackSize": 64,
@@ -542,17 +487,17 @@
   "blackstone_slab": {
     "name": "Blackstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "blackstone_stairs": {
     "name": "Blackstone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "blackstone_wall": {
     "name": "Blackstone Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "blade_pottery_sherd": {
     "name": "Blade Pottery Sherd",
@@ -562,7 +507,7 @@
   "blast_furnace": {
     "name": "Blast Furnace",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "blaze_powder": {
     "name": "Blaze Powder",
@@ -573,6 +518,91 @@
     "name": "Blaze Rod",
     "stackSize": 64,
     "isRaw": true
+  },
+  "amethyst_block": {
+    "name": "Block of Amethyst",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "bamboo_block": {
+    "name": "Block of Bamboo",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "coal_block": {
+    "name": "Block of Coal",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "copper_block": {
+    "name": "Block of Copper",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "diamond_block": {
+    "name": "Block of Diamond",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "emerald_block": {
+    "name": "Block of Emerald",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "gold_block": {
+    "name": "Block of Gold",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "iron_block": {
+    "name": "Block of Iron",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "lapis_block": {
+    "name": "Block of Lapis Lazuli",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "netherite_block": {
+    "name": "Block of Netherite",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "quartz_block": {
+    "name": "Block of Quartz",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "raw_copper_block": {
+    "name": "Block of Raw Copper",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "raw_gold_block": {
+    "name": "Block of Raw Gold",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "raw_iron_block": {
+    "name": "Block of Raw Iron",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "redstone_block": {
+    "name": "Block of Redstone",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "resin_block": {
+    "name": "Block of Resin",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "stripped_bamboo_block": {
+    "name": "Block of Stripped Bamboo",
+    "stackSize": 64,
+    "isRaw": false
   },
   "blue_banner": {
     "name": "Blue Banner",
@@ -587,17 +617,12 @@
   "blue_bundle": {
     "name": "Blue Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "blue_candle": {
     "name": "Blue Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "blue_candle_cake": {
-    "name": "Blue Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "blue_carpet": {
     "name": "Blue Carpet",
@@ -619,6 +644,11 @@
     "stackSize": 64,
     "isRaw": true
   },
+  "blue_egg": {
+    "name": "Blue Egg",
+    "stackSize": 16,
+    "isRaw": true
+  },
   "blue_glazed_terracotta": {
     "name": "Blue Glazed Terracotta",
     "stackSize": 64,
@@ -627,7 +657,7 @@
   "blue_ice": {
     "name": "Blue Ice",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "blue_orchid": {
     "name": "Blue Orchid",
@@ -654,20 +684,10 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "blue_wall_banner": {
-    "name": "Blue Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "blue_wool": {
     "name": "Blue Wool",
     "stackSize": 64,
     "isRaw": false
-  },
-  "bolt_armor_trim_smithing_template": {
-    "name": "Bolt Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
   },
   "bone": {
     "name": "Bone",
@@ -687,6 +707,11 @@
   "book": {
     "name": "Book",
     "stackSize": 64,
+    "isRaw": false
+  },
+  "writable_book": {
+    "name": "Book and Quill",
+    "stackSize": 1,
     "isRaw": false
   },
   "bookshelf": {
@@ -712,15 +737,10 @@
   "brain_coral_block": {
     "name": "Brain Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "brain_coral_fan": {
     "name": "Brain Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "brain_coral_wall_fan": {
-    "name": "Brain Coral Wall Fan",
     "stackSize": 64,
     "isRaw": true
   },
@@ -737,7 +757,7 @@
   "brewing_stand": {
     "name": "Brewing Stand",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "brick": {
     "name": "Brick",
@@ -747,17 +767,17 @@
   "brick_slab": {
     "name": "Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "brick_stairs": {
     "name": "Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "brick_wall": {
     "name": "Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "bricks": {
     "name": "Bricks",
@@ -777,17 +797,12 @@
   "brown_bundle": {
     "name": "Brown Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "brown_candle": {
     "name": "Brown Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "brown_candle_cake": {
-    "name": "Brown Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "brown_carpet": {
     "name": "Brown Carpet",
@@ -809,6 +824,11 @@
     "stackSize": 64,
     "isRaw": true
   },
+  "brown_egg": {
+    "name": "Brown Egg",
+    "stackSize": 16,
+    "isRaw": true
+  },
   "brown_glazed_terracotta": {
     "name": "Brown Glazed Terracotta",
     "stackSize": 64,
@@ -822,7 +842,7 @@
   "brown_mushroom_block": {
     "name": "Brown Mushroom Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "brown_shulker_box": {
     "name": "Brown Shulker Box",
@@ -844,11 +864,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "brown_wall_banner": {
-    "name": "Brown Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "brown_wool": {
     "name": "Brown Wool",
     "stackSize": 64,
@@ -857,12 +872,7 @@
   "brush": {
     "name": "Brush",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "bubble_column": {
-    "name": "Bubble Column",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "bubble_coral": {
     "name": "Bubble Coral",
@@ -872,15 +882,10 @@
   "bubble_coral_block": {
     "name": "Bubble Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "bubble_coral_fan": {
     "name": "Bubble Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "bubble_coral_wall_fan": {
-    "name": "Bubble Coral Wall Fan",
     "stackSize": 64,
     "isRaw": true
   },
@@ -927,7 +932,7 @@
   "calibrated_sculk_sensor": {
     "name": "Calibrated Sculk Sensor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "campfire": {
     "name": "Campfire",
@@ -939,11 +944,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "candle_cake": {
-    "name": "Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "carrot": {
     "name": "Carrot",
     "stackSize": 64,
@@ -954,45 +954,25 @@
     "stackSize": 1,
     "isRaw": false
   },
-  "carrots": {
-    "name": "Carrots",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "cartography_table": {
     "name": "Cartography Table",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "carved_pumpkin": {
     "name": "Carved Pumpkin",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cauldron": {
     "name": "Cauldron",
     "stackSize": 64,
     "isRaw": false
   },
-  "cave_air": {
-    "name": "Cave Air",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "cave_vines": {
-    "name": "Cave Vines",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "cave_vines_plant": {
-    "name": "Cave Vines Plant",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "chain_command_block": {
     "name": "Chain Command Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chainmail_boots": {
     "name": "Chainmail Boots",
@@ -1017,6 +997,11 @@
   "charcoal": {
     "name": "Charcoal",
     "stackSize": 64,
+    "isRaw": false
+  },
+  "cherry_boat": {
+    "name": "Cherry Boat",
+    "stackSize": 1,
     "isRaw": false
   },
   "cherry_button": {
@@ -1072,7 +1057,7 @@
   "cherry_shelf": {
     "name": "Cherry Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cherry_sign": {
     "name": "Cherry Sign",
@@ -1094,20 +1079,10 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "cherry_wall_hanging_sign": {
-    "name": "Cherry Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "cherry_wall_sign": {
-    "name": "Cherry Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "cherry_wood": {
     "name": "Cherry Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chest": {
     "name": "Chest",
@@ -1117,67 +1092,67 @@
   "chipped_anvil": {
     "name": "Chipped Anvil",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_bookshelf": {
     "name": "Chiseled Bookshelf",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "chiseled_bricks": {
-    "name": "Chiseled Tuff Bricks",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_copper": {
     "name": "Chiseled Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_deepslate": {
     "name": "Chiseled Deepslate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_nether_bricks": {
     "name": "Chiseled Nether Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_polished_blackstone": {
     "name": "Chiseled Polished Blackstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_quartz_block": {
     "name": "Chiseled Quartz Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_red_sandstone": {
     "name": "Chiseled Red Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
-  "chiseled_resin_brick": {
-    "name": "Chiseled Resin Brick",
+  "chiseled_resin_bricks": {
+    "name": "Chiseled Resin Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_sandstone": {
     "name": "Chiseled Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_stone_bricks": {
     "name": "Chiseled Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "chiseled_tuff": {
     "name": "Chiseled Tuff",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
+  },
+  "chiseled_tuff_bricks": {
+    "name": "Chiseled Tuff Bricks",
+    "stackSize": 64,
+    "isRaw": false
   },
   "chorus_flower": {
     "name": "Chorus Flower",
@@ -1209,11 +1184,6 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "coal_block": {
-    "name": "Block of Coal",
-    "stackSize": 64,
-    "isRaw": false
-  },
   "coal_ore": {
     "name": "Coal Ore",
     "stackSize": 64,
@@ -1224,11 +1194,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "coast_armor_trim_smithing_template": {
-    "name": "Coast Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "cobbled_deepslate": {
     "name": "Cobbled Deepslate",
     "stackSize": 64,
@@ -1237,17 +1202,17 @@
   "cobbled_deepslate_slab": {
     "name": "Cobbled Deepslate Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cobbled_deepslate_stairs": {
     "name": "Cobbled Deepslate Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cobbled_deepslate_wall": {
     "name": "Cobbled Deepslate Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cobblestone": {
     "name": "Cobblestone",
@@ -1257,25 +1222,20 @@
   "cobblestone_slab": {
     "name": "Cobblestone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cobblestone_stairs": {
     "name": "Cobblestone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cobblestone_wall": {
     "name": "Cobblestone Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cobweb": {
     "name": "Cobweb",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "cocoa": {
-    "name": "Cocoa",
     "stackSize": 64,
     "isRaw": true
   },
@@ -1286,11 +1246,6 @@
   },
   "command_block": {
     "name": "Command Block",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "comparator": {
-    "name": "Redstone Comparator",
     "stackSize": 64,
     "isRaw": false
   },
@@ -1316,68 +1271,63 @@
   },
   "copper_axe": {
     "name": "Copper Axe",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_bars": {
     "name": "Copper Bars",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "copper_block": {
-    "name": "Block of Copper",
     "stackSize": 64,
     "isRaw": false
   },
   "copper_boots": {
     "name": "Copper Boots",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_bulb": {
     "name": "Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_chain": {
     "name": "Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_chest": {
     "name": "Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_chestplate": {
     "name": "Copper Chestplate",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_door": {
     "name": "Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_golem_statue": {
     "name": "Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_grate": {
     "name": "Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_helmet": {
     "name": "Copper Helmet",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_hoe": {
     "name": "Copper Hoe",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_ingot": {
     "name": "Copper ingot",
@@ -1387,12 +1337,12 @@
   "copper_lantern": {
     "name": "Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_leggings": {
     "name": "Copper Leggings",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_nugget": {
     "name": "Copper Nugget",
@@ -1406,38 +1356,33 @@
   },
   "copper_pickaxe": {
     "name": "Copper Pickaxe",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_shovel": {
     "name": "Copper Shovel",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_spear": {
     "name": "Copper Spear",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_sword": {
     "name": "Copper Sword",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "copper_torch": {
     "name": "Copper Torch",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_trapdoor": {
     "name": "Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "copper_wall_torch": {
-    "name": "Copper Wall Torch",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cornflower": {
     "name": "Cornflower",
@@ -1447,12 +1392,12 @@
   "cracked_deepslate_bricks": {
     "name": "Cracked Deepslate Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cracked_deepslate_tiles": {
     "name": "Cracked Deepslate Tiles",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cracked_nether_bricks": {
     "name": "Cracked Nether Bricks",
@@ -1462,12 +1407,12 @@
   "cracked_polished_blackstone_bricks": {
     "name": "Cracked Polished Blackstone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cracked_stone_bricks": {
     "name": "Cracked Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "crafter": {
     "name": "Crafter",
@@ -1486,11 +1431,6 @@
   },
   "creeper_head": {
     "name": "Creeper Head",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "creeper_wall_head": {
-    "name": "Creeper Wall Head",
     "stackSize": 64,
     "isRaw": true
   },
@@ -1527,7 +1467,7 @@
   "crimson_hyphae": {
     "name": "Crimson Hyphae",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "crimson_nylium": {
     "name": "Crimson Nylium",
@@ -1552,7 +1492,7 @@
   "crimson_shelf": {
     "name": "Crimson Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "crimson_sign": {
     "name": "Crimson Sign",
@@ -1572,22 +1512,12 @@
   "crimson_stem": {
     "name": "Crimson Stem",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "crimson_trapdoor": {
     "name": "Crimson Trapdoor",
     "stackSize": 64,
     "isRaw": false
-  },
-  "crimson_wall_hanging_sign": {
-    "name": "Crimson Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "crimson_wall_sign": {
-    "name": "Crimson Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
   },
   "crossbow": {
     "name": "Crossbow",
@@ -1617,22 +1547,22 @@
   "cut_red_sandstone": {
     "name": "Cut Red Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cut_red_sandstone_slab": {
     "name": "Cut Red Sandstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cut_sandstone": {
     "name": "Cut Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cut_sandstone_slab": {
     "name": "Cut Sandstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cyan_banner": {
     "name": "Cyan Banner",
@@ -1647,17 +1577,12 @@
   "cyan_bundle": {
     "name": "Cyan Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cyan_candle": {
     "name": "Cyan Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "cyan_candle_cake": {
-    "name": "Cyan Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "cyan_carpet": {
     "name": "Cyan Carpet",
@@ -1704,11 +1629,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "cyan_wall_banner": {
-    "name": "Cyan Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "cyan_wool": {
     "name": "Cyan Wool",
     "stackSize": 64,
@@ -1717,7 +1637,7 @@
   "damaged_anvil": {
     "name": "Damaged Anvil",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dandelion": {
     "name": "Dandelion",
@@ -1728,6 +1648,11 @@
     "name": "Danger Pottery Sherd",
     "stackSize": 64,
     "isRaw": true
+  },
+  "dark_oak_boat": {
+    "name": "Dark Oak Boat",
+    "stackSize": 1,
+    "isRaw": false
   },
   "dark_oak_button": {
     "name": "Dark Oak Button",
@@ -1782,7 +1707,7 @@
   "dark_oak_shelf": {
     "name": "Dark Oak Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dark_oak_sign": {
     "name": "Dark Oak Sign",
@@ -1804,35 +1729,25 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "dark_oak_wall_hanging_sign": {
-    "name": "Dark Oak Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "dark_oak_wall_sign": {
-    "name": "Dark Oak Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "dark_oak_wood": {
     "name": "Dark Oak Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dark_prismarine": {
     "name": "Dark Prismarine",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dark_prismarine_slab": {
     "name": "Dark Prismarine Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dark_prismarine_stairs": {
     "name": "Dark Prismarine Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "daylight_detector": {
     "name": "Daylight Detector",
@@ -1847,15 +1762,10 @@
   "dead_brain_coral_block": {
     "name": "Dead Brain Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dead_brain_coral_fan": {
     "name": "Dead Brain Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "dead_brain_coral_wall_fan": {
-    "name": "Dead Brain Coral Wall Fan",
     "stackSize": 64,
     "isRaw": true
   },
@@ -1867,15 +1777,10 @@
   "dead_bubble_coral_block": {
     "name": "Dead Bubble Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dead_bubble_coral_fan": {
     "name": "Dead Bubble Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "dead_bubble_coral_wall_fan": {
-    "name": "Dead Bubble Coral Wall Fan",
     "stackSize": 64,
     "isRaw": true
   },
@@ -1892,15 +1797,10 @@
   "dead_fire_coral_block": {
     "name": "Dead Fire Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dead_fire_coral_fan": {
     "name": "Dead Fire Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "dead_fire_coral_wall_fan": {
-    "name": "Dead Fire Coral Wall Fan",
     "stackSize": 64,
     "isRaw": true
   },
@@ -1912,15 +1812,10 @@
   "dead_horn_coral_block": {
     "name": "Dead Horn Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dead_horn_coral_fan": {
     "name": "Dead Horn Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "dead_horn_coral_wall_fan": {
-    "name": "Dead Horn Coral Wall Fan",
     "stackSize": 64,
     "isRaw": true
   },
@@ -1932,22 +1827,17 @@
   "dead_tube_coral_block": {
     "name": "Dead Tube Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dead_tube_coral_fan": {
     "name": "Dead Tube Coral Fan",
     "stackSize": 64,
     "isRaw": true
   },
-  "dead_tube_coral_wall_fan": {
-    "name": "Dead Tube Coral Wall Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "decorated_pot": {
     "name": "Decorated Pot",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate": {
     "name": "Deepslate",
@@ -1957,22 +1847,22 @@
   "deepslate_brick_slab": {
     "name": "Deepslate Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate_brick_stairs": {
     "name": "Deepslate Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate_brick_wall": {
     "name": "Deepslate Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate_bricks": {
     "name": "Deepslate Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate_coal_ore": {
     "name": "Deepslate Coal Ore",
@@ -2017,22 +1907,22 @@
   "deepslate_tile_slab": {
     "name": "Deepslate Tile Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate_tile_stairs": {
     "name": "Deepslate Tile Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate_tile_wall": {
     "name": "Deepslate Tile Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "deepslate_tiles": {
     "name": "Deepslate Tiles",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "detector_rail": {
     "name": "Detector Rail",
@@ -2047,11 +1937,6 @@
   "diamond_axe": {
     "name": "Diamond Axe",
     "stackSize": 1,
-    "isRaw": false
-  },
-  "diamond_block": {
-    "name": "Block of Diamond",
-    "stackSize": 64,
     "isRaw": false
   },
   "diamond_boots": {
@@ -2097,7 +1982,7 @@
   "diamond_spear": {
     "name": "Diamond Spear",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "diamond_sword": {
     "name": "Diamond Sword",
@@ -2112,17 +1997,17 @@
   "diorite_slab": {
     "name": "Diorite Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "diorite_stairs": {
     "name": "Diorite Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "diorite_wall": {
     "name": "Diorite Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "dirt": {
     "name": "Dirt",
@@ -2154,11 +2039,6 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "dragon_wall_head": {
-    "name": "Dragon Wall Head",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "dried_ghast": {
     "name": "Dried Ghast",
     "stackSize": 64,
@@ -2184,19 +2064,19 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "dune_armor_trim_smithing_template": {
-    "name": "Dune Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "echo_shard": {
     "name": "Echo Shard",
     "stackSize": 64,
     "isRaw": true
   },
+  "egg": {
+    "name": "Egg",
+    "stackSize": 16,
+    "isRaw": true
+  },
   "elytra": {
     "name": "Elytra",
-    "stackSize": 64,
+    "stackSize": 1,
     "isRaw": true
   },
   "emerald": {
@@ -2204,15 +2084,15 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "emerald_block": {
-    "name": "Block of Emerald",
-    "stackSize": 64,
-    "isRaw": false
-  },
   "emerald_ore": {
     "name": "Emerald Ore",
     "stackSize": 64,
     "isRaw": true
+  },
+  "map": {
+    "name": "Empty Map",
+    "stackSize": 64,
+    "isRaw": false
   },
   "enchanted_golden_apple": {
     "name": "Enchanted Golden Apple",
@@ -2222,17 +2102,7 @@
   "enchanting_table": {
     "name": "Enchanting Table",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "end_gateway": {
-    "name": "End Gateway",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "end_portal": {
-    "name": "End Portal",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "end_portal_frame": {
     "name": "End Portal Frame",
@@ -2242,7 +2112,7 @@
   "end_rod": {
     "name": "End Rod",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "end_stone": {
     "name": "End Stone",
@@ -2252,27 +2122,32 @@
   "end_stone_brick_slab": {
     "name": "End Stone Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "end_stone_brick_stairs": {
     "name": "End Stone Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "end_stone_brick_wall": {
     "name": "End Stone Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "end_stone_bricks": {
     "name": "End Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "ender_chest": {
     "name": "Ender Chest",
     "stackSize": 64,
     "isRaw": false
+  },
+  "ender_pearl": {
+    "name": "Ender Pearl",
+    "stackSize": 16,
+    "isRaw": true
   },
   "explorer_pottery_sherd": {
     "name": "Explorer Pottery Sherd",
@@ -2292,27 +2167,27 @@
   "exposed_copper_bars": {
     "name": "Exposed Copper Bars",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_bulb": {
     "name": "Exposed Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_chain": {
     "name": "Exposed Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_chest": {
     "name": "Exposed Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_door": {
     "name": "Exposed Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_golem_statue": {
     "name": "Exposed Copper Golem Statue",
@@ -2322,17 +2197,17 @@
   "exposed_copper_grate": {
     "name": "Exposed Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_lantern": {
     "name": "Exposed Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_trapdoor": {
     "name": "Exposed Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_cut_copper": {
     "name": "Exposed Cut Copper",
@@ -2352,17 +2227,12 @@
   "exposed_lightning_rod": {
     "name": "Exposed Lightning Rod",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
-  "eye_armor_trim_smithing_template": {
-    "name": "Eye Armor Trim",
+  "ender_eye": {
+    "name": "Eye of Ender",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "farmland": {
-    "name": "Farmland",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "feather": {
     "name": "Feather",
@@ -2374,15 +2244,10 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "fire": {
-    "name": "Fire",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "fire_charge": {
     "name": "Fire Charge",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "fire_coral": {
     "name": "Fire Coral",
@@ -2392,27 +2257,17 @@
   "fire_coral_block": {
     "name": "Fire Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "fire_coral_fan": {
     "name": "Fire Coral Fan",
     "stackSize": 64,
     "isRaw": true
   },
-  "fire_coral_wall_fan": {
-    "name": "Fire Coral Wall Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "firefly_bush": {
-    "name": "Firefly Bush",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "firework_star": {
     "name": "Firework Star",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "fishing_rod": {
     "name": "Fishing Rod",
@@ -2422,7 +2277,7 @@
   "fletching_table": {
     "name": "Fletching Table",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "flint": {
     "name": "Flint",
@@ -2433,11 +2288,6 @@
     "name": "Flint and Steel",
     "stackSize": 1,
     "isRaw": false
-  },
-  "flow_armor_trim_smithing_template": {
-    "name": "Flow Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
   },
   "flow_pottery_sherd": {
     "name": "Flow Pottery Sherd",
@@ -2469,15 +2319,10 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "frosted_ice": {
-    "name": "Frosted Ice",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "furnace": {
     "name": "Furnace",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "ghast_tear": {
     "name": "Ghast Tear",
@@ -2492,15 +2337,20 @@
   "glass": {
     "name": "Glass",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "glass_bottle": {
     "name": "Glass Bottle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "glass_pane": {
     "name": "Glass Pane",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "glow_berries": {
+    "name": "Glow Berries",
     "stackSize": 64,
     "isRaw": true
   },
@@ -2517,17 +2367,12 @@
   "glowstone": {
     "name": "Glowstone",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "glowstone_dust": {
     "name": "Glowstone Dust",
     "stackSize": 64,
     "isRaw": true
-  },
-  "gold_block": {
-    "name": "Block of Gold",
-    "stackSize": 64,
-    "isRaw": false
   },
   "gold_ingot": {
     "name": "Gold Ingot",
@@ -2587,7 +2432,7 @@
   "golden_spear": {
     "name": "Golden Spear",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "golden_sword": {
     "name": "Golden Sword",
@@ -2602,17 +2447,17 @@
   "granite_slab": {
     "name": "Granite Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "granite_stairs": {
     "name": "Granite Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "granite_wall": {
     "name": "Granite Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "grass_block": {
     "name": "Grass Block",
@@ -2637,17 +2482,12 @@
   "gray_bundle": {
     "name": "Gray Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "gray_candle": {
     "name": "Gray Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "gray_candle_cake": {
-    "name": "Gray Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "gray_carpet": {
     "name": "Gray Carpet",
@@ -2694,11 +2534,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "gray_wall_banner": {
-    "name": "Gray Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "gray_wool": {
     "name": "Gray Wool",
     "stackSize": 64,
@@ -2717,17 +2552,12 @@
   "green_bundle": {
     "name": "Green Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "green_candle": {
     "name": "Green Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "green_candle_cake": {
-    "name": "Green Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "green_carpet": {
     "name": "Green Carpet",
@@ -2774,11 +2604,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "green_wall_banner": {
-    "name": "Green Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "green_wool": {
     "name": "Green Wool",
     "stackSize": 64,
@@ -2787,7 +2612,7 @@
   "grindstone": {
     "name": "Grindstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "gunpowder": {
     "name": "Gunpowder",
@@ -2805,11 +2630,6 @@
     "isRaw": true
   },
   "hay_bale": {
-    "name": "Hay Bale",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "hay_block": {
     "name": "Hay Bale",
     "stackSize": 64,
     "isRaw": false
@@ -2837,7 +2657,7 @@
   "heavy_weighted_pressure_plate": {
     "name": "Heavy Weighted Pressure Plate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "honey_block": {
     "name": "Honey Block",
@@ -2857,7 +2677,7 @@
   "honeycomb_block": {
     "name": "Honeycomb Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "hopper": {
     "name": "Hopper",
@@ -2872,20 +2692,10 @@
   "horn_coral_block": {
     "name": "Horn Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "horn_coral_fan": {
     "name": "Horn Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "horn_coral_wall_fan": {
-    "name": "Horn Coral Wall Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "host_armor_trim_smithing_template": {
-    "name": "Host Armor Trim",
     "stackSize": 64,
     "isRaw": true
   },
@@ -2902,7 +2712,7 @@
   "infested_chiseled_stone_bricks": {
     "name": "Infested Chiseled Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "infested_cobblestone": {
     "name": "Infested Cobblestone",
@@ -2912,7 +2722,7 @@
   "infested_cracked_stone_bricks": {
     "name": "Infested Cracked Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "infested_deepslate": {
     "name": "Infested Deepslate",
@@ -2922,7 +2732,7 @@
   "infested_mossy_stone_bricks": {
     "name": "Infested Mossy Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "infested_stone": {
     "name": "Infested Stone",
@@ -2932,7 +2742,7 @@
   "infested_stone_bricks": {
     "name": "Infested Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "ink_sac": {
     "name": "Ink Sac",
@@ -2947,11 +2757,6 @@
   "iron_bars": {
     "name": "Iron Bars",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "iron_block": {
-    "name": "Block of Iron",
-    "stackSize": 64,
     "isRaw": false
   },
   "iron_boots": {
@@ -2962,7 +2767,7 @@
   "iron_chain": {
     "name": "Iron Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "iron_chestplate": {
     "name": "Iron Chestplate",
@@ -2972,7 +2777,7 @@
   "iron_door": {
     "name": "Iron Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "iron_helmet": {
     "name": "Iron Helmet",
@@ -3017,7 +2822,7 @@
   "iron_spear": {
     "name": "Iron Spear",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "iron_sword": {
     "name": "Iron Sword",
@@ -3027,12 +2832,17 @@
   "iron_trapdoor": {
     "name": "Iron Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
+  },
+  "item_frame": {
+    "name": "Item Frame",
+    "stackSize": 64,
+    "isRaw": false
   },
   "jack_o_lantern": {
     "name": "Jack o'Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "jigsaw": {
     "name": "Jigsaw Block",
@@ -3042,6 +2852,11 @@
   "jukebox": {
     "name": "Jukebox",
     "stackSize": 64,
+    "isRaw": false
+  },
+  "jungle_boat": {
+    "name": "Jungle Boat",
+    "stackSize": 1,
     "isRaw": false
   },
   "jungle_button": {
@@ -3089,7 +2904,7 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "jungle_saplings": {
+  "jungle_sapling": {
     "name": "Jungle Sapling",
     "stackSize": 64,
     "isRaw": true
@@ -3097,7 +2912,7 @@
   "jungle_shelf": {
     "name": "Jungle Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "jungle_sign": {
     "name": "Jungle Sign",
@@ -3119,28 +2934,13 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "jungle_wall_hanging_sign": {
-    "name": "Jungle Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "jungle_wall_sign": {
-    "name": "Jungle Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "jungle_wood": {
     "name": "Jungle Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "kelp": {
     "name": "Kelp",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "kelp_plant": {
-    "name": "Kelp Plant",
     "stackSize": 64,
     "isRaw": true
   },
@@ -3151,11 +2951,6 @@
   },
   "lantern": {
     "name": "Lantern",
-    "stackSize": 64,
-    "isRaw": false
-  },
-  "lapis_block": {
-    "name": "Block of Lapis Lazuli",
     "stackSize": 64,
     "isRaw": false
   },
@@ -3179,15 +2974,10 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "lava": {
-    "name": "Lava",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "lava_cauldron": {
-    "name": "Lava Cauldron",
-    "stackSize": 64,
-    "isRaw": true
+  "lava_bucket": {
+    "name": "Lava Bucket",
+    "stackSize": 1,
+    "isRaw": false
   },
   "leaf_litter": {
     "name": "Leaf Litter",
@@ -3204,11 +2994,6 @@
     "stackSize": 1,
     "isRaw": false
   },
-  "leather_chestplate": {
-    "name": "Leather Tunic",
-    "stackSize": 1,
-    "isRaw": false
-  },
   "leather_helmet": {
     "name": "Leather Cap",
     "stackSize": 1,
@@ -3216,6 +3001,11 @@
   },
   "leather_leggings": {
     "name": "Leather Pants",
+    "stackSize": 1,
+    "isRaw": false
+  },
+  "leather_chestplate": {
+    "name": "Leather Tunic",
     "stackSize": 1,
     "isRaw": false
   },
@@ -3247,17 +3037,12 @@
   "light_blue_bundle": {
     "name": "Light Blue Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "light_blue_candle": {
     "name": "Light Blue Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "light_blue_candle_cake": {
-    "name": "Light Blue Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "light_blue_carpet": {
     "name": "Light Blue Carpet",
@@ -3304,11 +3089,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "light_blue_wall_banner": {
-    "name": "Light Blue Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "light_blue_wool": {
     "name": "Light Blue Wool",
     "stackSize": 64,
@@ -3327,17 +3107,12 @@
   "light_gray_bundle": {
     "name": "Light Gray Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "light_gray_candle": {
     "name": "Light Gray Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "light_gray_candle_cake": {
-    "name": "Light Gray Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "light_gray_carpet": {
     "name": "Light Gray Carpet",
@@ -3384,11 +3159,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "light_gray_wall_banner": {
-    "name": "Light Gray Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "light_gray_wool": {
     "name": "Light Gray Wool",
     "stackSize": 64,
@@ -3397,7 +3167,7 @@
   "light_weighted_pressure_plate": {
     "name": "Light Weighted Pressure Plate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "lightning_rod": {
     "name": "Lightning Rod",
@@ -3432,17 +3202,12 @@
   "lime_bundle": {
     "name": "Lime Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "lime_candle": {
     "name": "Lime Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "lime_candle_cake": {
-    "name": "Lime Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "lime_carpet": {
     "name": "Lime Carpet",
@@ -3489,11 +3254,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "lime_wall_banner": {
-    "name": "Lime Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "lime_wool": {
     "name": "Lime Wool",
     "stackSize": 64,
@@ -3504,15 +3264,15 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "loon": {
+  "loom": {
     "name": "Loom",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mace": {
     "name": "Mace",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "magenta_banner": {
     "name": "Magenta Banner",
@@ -3527,17 +3287,12 @@
   "magenta_bundle": {
     "name": "Magenta Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "magenta_candle": {
     "name": "Magenta Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "magenta_candle_cake": {
-    "name": "Magenta Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "magenta_carpet": {
     "name": "Magenta Carpet",
@@ -3584,11 +3339,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "magenta_wall_banner": {
-    "name": "Magenta Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "magenta_wool": {
     "name": "Magenta Wool",
     "stackSize": 64,
@@ -3597,12 +3347,17 @@
   "magma_block": {
     "name": "Magma Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "magma_cream": {
     "name": "Magma Cream",
     "stackSize": 64,
     "isRaw": true
+  },
+  "mangrove_boat": {
+    "name": "Mangrove Boat",
+    "stackSize": 1,
+    "isRaw": false
   },
   "mangrove_button": {
     "name": "Mangrove Button",
@@ -3619,10 +3374,10 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "mangrove_gate": {
+  "mangrove_fence_gate": {
     "name": "Mangrove Fence Gate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mangrove_hanging_sign": {
     "name": "Mangrove Hanging Sign",
@@ -3662,7 +3417,7 @@
   "mangrove_shelf": {
     "name": "Mangrove Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mangrove_sign": {
     "name": "Mangrove Sign",
@@ -3684,23 +3439,8 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "mangrove_wall_hanging_sign": {
-    "name": "Mangrove Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "mangrove_wall_sign": {
-    "name": "Mangrove Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "mangrove_wood": {
     "name": "Mangrove Wood",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "map": {
-    "name": "Empty Map",
     "stackSize": 64,
     "isRaw": false
   },
@@ -3714,23 +3454,33 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "melon_slice": {
-    "name": "Melon Slice",
+  "melon_seeds": {
+    "name": "Melon Seeds",
     "stackSize": 64,
     "isRaw": true
   },
-  "melon_stem": {
-    "name": "Melon Stem",
+  "melon_slice": {
+    "name": "Melon Slice",
     "stackSize": 64,
     "isRaw": true
   },
   "milk_bucket": {
     "name": "Milk Bucket",
     "stackSize": 1,
-    "isRaw": true
+    "isRaw": false
+  },
+  "minecart": {
+    "name": "Minecart",
+    "stackSize": 1,
+    "isRaw": false
   },
   "miner_pottery_sherd": {
     "name": "Miner Pottery Sherd",
+    "stackSize": 64,
+    "isRaw": true
+  },
+  "spawner": {
+    "name": "Monster Spawner",
     "stackSize": 64,
     "isRaw": true
   },
@@ -3742,7 +3492,7 @@
   "moss_carpet": {
     "name": "Moss Carpet",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "mossy_cobblestone": {
     "name": "Mossy Cobblestone",
@@ -3752,45 +3502,40 @@
   "mossy_cobblestone_slab": {
     "name": "Mossy Cobblestone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_cobblestone_stairs": {
     "name": "Mossy Cobblestone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_cobblestone_wall": {
     "name": "Mossy Cobblestone Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_stone_brick_slab": {
     "name": "Mossy Stone Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_stone_brick_stairs": {
-    "name": "Mossy Stone Brick Stair",
+    "name": "Mossy Stone Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_stone_brick_wall": {
     "name": "Mossy Stone Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_stone_bricks": {
     "name": "Mossy Stone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mourner_pottery_sherd": {
     "name": "Mourner Pottery Sherd",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "moving_piston": {
-    "name": "Moving Piston",
     "stackSize": 64,
     "isRaw": true
   },
@@ -3802,17 +3547,17 @@
   "mud_brick_slab": {
     "name": "Mud Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mud_brick_stairs": {
     "name": "Mud Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mud_brick_wall": {
     "name": "Mud Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mud_bricks": {
     "name": "Mud Bricks",
@@ -3827,14 +3572,14 @@
   "mushroom_stem": {
     "name": "Mushroom Stem",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mycelium": {
     "name": "Mycelium",
     "stackSize": 64,
     "isRaw": true
   },
-  "nautlius_shell": {
+  "nautilus_shell": {
     "name": "Nautilus Shell",
     "stackSize": 64,
     "isRaw": true
@@ -3847,22 +3592,22 @@
   "nether_brick_fence": {
     "name": "Nether Brick Fence",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "nether_brick_slab": {
     "name": "Nether Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "nether_brick_stairs": {
     "name": "Nether Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "nether_brick_wall": {
     "name": "Nether Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "nether_bricks": {
     "name": "Nether Bricks",
@@ -3874,8 +3619,8 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "nether_portal": {
-    "name": "Nether Portal",
+  "quartz": {
+    "name": "Nether Quartz",
     "stackSize": 64,
     "isRaw": true
   },
@@ -3902,17 +3647,12 @@
   "nether_wart_block": {
     "name": "Nether Wart Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "netherite_axe": {
     "name": "Netherite Axe",
     "stackSize": 1,
     "isRaw": false
-  },
-  "netherite_block": {
-    "name": "Block Of Netherite",
-    "stackSize": 64,
-    "isRaw": true
   },
   "netherite_boots": {
     "name": "Netherite Boots",
@@ -3962,7 +3702,7 @@
   "netherite_spear": {
     "name": "Netherite Spear",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "netherite_sword": {
     "name": "Netherite Sword",
@@ -3972,7 +3712,7 @@
   "netherite_upgrade_smithing_template": {
     "name": "Netherite Upgrade",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "netherrack": {
     "name": "Netherrack",
@@ -3982,6 +3722,11 @@
   "note_block": {
     "name": "Note Block",
     "stackSize": 64,
+    "isRaw": false
+  },
+  "oak_boat": {
+    "name": "Oak Boat",
+    "stackSize": 1,
     "isRaw": false
   },
   "oak_button": {
@@ -4037,7 +3782,7 @@
   "oak_shelf": {
     "name": "Oak Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oak_sign": {
     "name": "Oak Sign",
@@ -4059,20 +3804,10 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "oak_wall_hanging_sign": {
-    "name": "Oak Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "oak_wall_sign": {
-    "name": "Oak Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "oak_wood": {
     "name": "Oak Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "observer": {
     "name": "Observer",
@@ -4088,6 +3823,11 @@
     "name": "Ochre Froglight",
     "stackSize": 64,
     "isRaw": true
+  },
+  "ominous_banner": {
+    "name": "Ominous Banner",
+    "stackSize": 16,
+    "isRaw": false
   },
   "open_eyeblossom": {
     "name": "Open Eyeblossom",
@@ -4107,17 +3847,12 @@
   "orange_bundle": {
     "name": "Orange Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "orange_candle": {
     "name": "Orange Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "orange_candle_cake": {
-    "name": "Orange Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "orange_carpet": {
     "name": "Orange Carpet",
@@ -4169,11 +3904,6 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "orange_wall_banner": {
-    "name": "Orange Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "orange_wool": {
     "name": "Orange Wool",
     "stackSize": 64,
@@ -4197,27 +3927,27 @@
   "oxidized_copper_bars": {
     "name": "Oxidized Copper Bars",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_bulb": {
     "name": "Oxidized Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_chain": {
     "name": "Oxidized Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_chest": {
     "name": "Oxidized Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_door": {
     "name": "Oxidized Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_golem_statue": {
     "name": "Oxidized Copper Golem Statue",
@@ -4227,17 +3957,17 @@
   "oxidized_copper_grate": {
     "name": "Oxidized Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_lantern": {
     "name": "Oxidized Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_trapdoor": {
     "name": "Oxidized Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_cut_copper": {
     "name": "Oxidized Cut Copper",
@@ -4257,7 +3987,7 @@
   "oxidized_lightning_rod": {
     "name": "Oxidized Lightning Rod",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "packed_ice": {
     "name": "Packed Ice",
@@ -4267,12 +3997,7 @@
   "packed_mud": {
     "name": "Packed Mud",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "pale_hanging_moss": {
-    "name": "Pale Hanging Moss",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "pale_moss_block": {
     "name": "Pale Moss Block",
@@ -4283,6 +4008,11 @@
     "name": "Pale Moss Carpet",
     "stackSize": 64,
     "isRaw": true
+  },
+  "pale_oak_boat": {
+    "name": "Pale Oak Boat",
+    "stackSize": 1,
+    "isRaw": false
   },
   "pale_oak_button": {
     "name": "Pale Oak Button",
@@ -4337,7 +4067,7 @@
   "pale_oak_shelf": {
     "name": "Pale Oak Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "pale_oak_sign": {
     "name": "Pale Oak Sign",
@@ -4359,20 +4089,10 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "pale_oak_wall_hanging_sign": {
-    "name": "Pale Oak Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "pale_oak_wall_sign": {
-    "name": "Pale Oak Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "pale_oak_wood": {
     "name": "Pale Oak Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "paper": {
     "name": "Paper",
@@ -4392,7 +4112,7 @@
   "petrified_oak_slab": {
     "name": "Petrified Oak Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "phantom_membrane": {
     "name": "Phantom Membrane",
@@ -4401,11 +4121,6 @@
   },
   "piglin_head": {
     "name": "Piglin Head",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "piglin_wall_head": {
-    "name": "Piglin Wall Head",
     "stackSize": 64,
     "isRaw": true
   },
@@ -4422,17 +4137,12 @@
   "pink_bundle": {
     "name": "Pink Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "pink_candle": {
     "name": "Pink Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "pink_candle_cake": {
-    "name": "Pink Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "pink_carpet": {
     "name": "Pink Carpet",
@@ -4489,11 +4199,6 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "pink_wall_banner": {
-    "name": "Pink Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "pink_wool": {
     "name": "Pink Wool",
     "stackSize": 64,
@@ -4504,28 +4209,18 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "piston_head": {
-    "name": "Piston Head",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "pitcher_crop": {
-    "name": "Pitcher Crop",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "pitcher_plant": {
     "name": "Pitcher Plant",
     "stackSize": 64,
     "isRaw": true
   },
-  "player_head": {
-    "name": "Player Head",
+  "pitcher_pod": {
+    "name": "Pitcher Pod",
     "stackSize": 64,
     "isRaw": true
   },
-  "player_wall_head": {
-    "name": "Player Wall Head",
+  "player_head": {
+    "name": "Player Head",
     "stackSize": 64,
     "isRaw": true
   },
@@ -4547,142 +4242,142 @@
   "polished_andesite": {
     "name": "Polished Andesite",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_andesite_slab": {
     "name": "Polished Andesite Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_andesite_stairs": {
     "name": "Polished Andesite Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_basalt": {
     "name": "Polished Basalt",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone": {
     "name": "Polished Blackstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_brick_slab": {
     "name": "Polished Blackstone Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_brick_stairs": {
     "name": "Polished Blackstone Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_brick_wall": {
     "name": "Polished Blackstone Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_bricks": {
     "name": "Polished Blackstone Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_button": {
     "name": "Polished Blackstone Button",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_pressure_plate": {
     "name": "Polished Blackstone Pressure Plate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_slab": {
     "name": "Polished Blackstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_stairs": {
     "name": "Polished Blackstone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_blackstone_wall": {
     "name": "Polished Blackstone Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_deepslate": {
     "name": "Polished Deepslate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_deepslate_slab": {
     "name": "Polished Deepslate Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_deepslate_stairs": {
     "name": "Polished Deepslate Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_deepslate_wall": {
     "name": "Polished Deepslate Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_diorite": {
     "name": "Polished Diorite",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_diorite_slab": {
     "name": "Polished Diorite Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_diorite_stairs": {
     "name": "Polished Diorite Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_granite": {
     "name": "Polished Granite",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_granite_slab": {
     "name": "Polished Granite Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_granite_stairs": {
     "name": "Polished Granite Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_tuff": {
     "name": "Polished Tuff",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_tuff_slab": {
     "name": "Polished Tuff Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_tuff_stairs": {
     "name": "Polished Tuff Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "polished_tuff_wall": {
     "name": "Polished Tuff Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "popped_chorus_fruit": {
     "name": "Popped Chorus",
@@ -4694,205 +4389,15 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "potatoes": {
-    "name": "Potatoes",
+  "potato": {
+    "name": "Potato",
     "stackSize": 64,
     "isRaw": true
   },
-  "potted_acacia_sapling": {
-    "name": "Potted Acacia Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_allium": {
-    "name": "Potted Allium",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_azalea_bush": {
-    "name": "Potted Azalea Bush",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_azure_bluet": {
-    "name": "Potted Azure Bluet",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_bamboo": {
-    "name": "Potted Bamboo",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_birch_sapling": {
-    "name": "Potted Birch Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_blue_orchid": {
-    "name": "Potted Blue Orchid",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_brown_mushroom": {
-    "name": "Potted Brown Mushroom",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_cactus": {
-    "name": "Potted Cactus",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_cherry_sapling": {
-    "name": "Potted Cherry Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_closed_eyeblossom": {
-    "name": "Potted Closed Eyeblossom",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_cornflower": {
-    "name": "Potted Cornflower",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_crimson_fungus": {
-    "name": "Potted Crimson Fungus",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_crimson_roots": {
-    "name": "Potted Crimson Roots",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_dandelion": {
-    "name": "Potted Dandelion",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_dark_oak_sapling": {
-    "name": "Potted Dark Oak Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_dead_bush": {
-    "name": "Potted Dead Bush",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_fern": {
-    "name": "Potted Fern",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_flowering_azalea": {
-    "name": "Potted Flowering Azalea Bush",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_jungle_saplings": {
-    "name": "Potted Jungle Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_lily_of_the_valley": {
-    "name": "Potted Lily of the Valley",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_mangrove_propagule": {
-    "name": "Potted Mangrove Propagule",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_oak_sapling": {
-    "name": "Potted Oak Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_open_eyeblossom": {
-    "name": "Potted Open Eyeblossom",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_orange_tulip": {
-    "name": "Potted Orange Tulip",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_oxeye_daisy": {
-    "name": "Potted Oxeye Daisy",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_pale_oak_sapling": {
-    "name": "Potted Pale Oak Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_pink_tulip": {
-    "name": "Potted Pink Tulip",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_poppy": {
-    "name": "Potted Poppy",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_red_mushroom": {
-    "name": "Potted Red Mushroom",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_red_tulip": {
-    "name": "Potted Red Tulip",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_spruce_sapling": {
-    "name": "Potted Spruce Sapling",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_torchflower": {
-    "name": "Potted Torchflower",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_warped_fungus": {
-    "name": "Potted Warped Fungus",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_warped_roots": {
-    "name": "Potted Warped Roots",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_white_tulip": {
-    "name": "Potted White Tulip",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "potted_wither_rose": {
-    "name": "Potted Wither Rose",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "powder_snow": {
-    "name": "Powder Snow",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "powder_snow_cauldron": {
-    "name": "Powder Snow Cauldron",
-    "stackSize": 64,
-    "isRaw": true
+  "powder_snow_bucket": {
+    "name": "Powder Snow Bucket",
+    "stackSize": 1,
+    "isRaw": false
   },
   "powered_rail": {
     "name": "Powered Rail",
@@ -4907,17 +4412,17 @@
   "prismarine_brick_slab": {
     "name": "Prismarine Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "prismarine_brick_stairs": {
     "name": "Prismarine Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "prismarine_bricks": {
     "name": "Prismarine Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "prismarine_crystals": {
     "name": "Prismarine Crystals",
@@ -4932,17 +4437,17 @@
   "prismarine_slab": {
     "name": "Prismarine Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "prismarine_stairs": {
     "name": "Prismarine Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "prismarine_wall": {
     "name": "Prismarine Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "prize_pottery_sherd": {
     "name": "Prize Pottery Sherd",
@@ -4954,8 +4459,8 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "pumpkin_stem": {
-    "name": "Pumpkin Stem",
+  "pumpkin_seeds": {
+    "name": "Pumpkin Seeds",
     "stackSize": 64,
     "isRaw": true
   },
@@ -4972,17 +4477,12 @@
   "purple_bundle": {
     "name": "Purple Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "purple_candle": {
     "name": "Purple Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "purple_candle_cake": {
-    "name": "Purple Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "purple_carpet": {
     "name": "Purple Carpet",
@@ -5029,11 +4529,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "purple_wall_banner": {
-    "name": "Purple Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "purple_wool": {
     "name": "Purple Wool",
     "stackSize": 64,
@@ -5042,52 +4537,42 @@
   "purpur_block": {
     "name": "Purpur Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "purpur_pillar": {
     "name": "Purpur Pillar",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "purpur_slab": {
     "name": "Purpur Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "purpur_stairs": {
     "name": "Purpur Stairs",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "quartz": {
-    "name": "Nether Quartz",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "quartz_block": {
-    "name": "Block of Quartz",
     "stackSize": 64,
     "isRaw": false
   },
   "quartz_bricks": {
     "name": "Quartz Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "quartz_pillar": {
     "name": "Quartz Pillar",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "quartz_slab": {
     "name": "Quartz Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "quartz_stairs": {
     "name": "Quartz Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "rabbit_hide": {
     "name": "Rabbit Hide",
@@ -5099,18 +4584,8 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "raiser_armor_trim_smithing_template": {
-    "name": "Raiser Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "raw_copper": {
     "name": "Raw Copper",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "raw_copper_block": {
-    "name": "Block of Raw Copper",
     "stackSize": 64,
     "isRaw": true
   },
@@ -5119,18 +4594,8 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "raw_gold_block": {
-    "name": "Block of Raw Gold",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "raw_iron": {
     "name": "Raw Iron",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "raw_iron_block": {
-    "name": "Block of Raw Iron",
     "stackSize": 64,
     "isRaw": true
   },
@@ -5147,17 +4612,12 @@
   "red_bundle": {
     "name": "Red Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_candle": {
     "name": "Red Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "red_candle_cake": {
-    "name": "Red Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "red_carpet": {
     "name": "Red Carpet",
@@ -5192,27 +4652,27 @@
   "red_mushroom_block": {
     "name": "Red Mushroom Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_nether_brick_slab": {
     "name": "Red Nether Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_nether_brick_stairs": {
     "name": "Red Nether Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_nether_brick_wall": {
     "name": "Red Nether Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_nether_bricks": {
     "name": "Red Nether Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_sand": {
     "name": "Red Sand",
@@ -5227,17 +4687,17 @@
   "red_sandstone_slab": {
     "name": "Red Sandstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_sandstone_stairs": {
     "name": "Red Sandstone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_sandstone_wall": {
     "name": "Red Sandstone Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_shulker_box": {
     "name": "Red Shulker Box",
@@ -5264,13 +4724,13 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "red_wall_banner": {
-    "name": "Red Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "red_wool": {
     "name": "Red Wool",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "comparator": {
+    "name": "Redstone Comparator",
     "stackSize": 64,
     "isRaw": false
   },
@@ -5278,11 +4738,6 @@
     "name": "Redstone Dust",
     "stackSize": 64,
     "isRaw": true
-  },
-  "redstone_block": {
-    "name": "Block of Redstone",
-    "stackSize": 64,
-    "isRaw": false
   },
   "redstone_lamp": {
     "name": "Redstone Lamp",
@@ -5294,40 +4749,25 @@
     "stackSize": 64,
     "isRaw": true
   },
+  "repeater": {
+    "name": "Redstone Repeater",
+    "stackSize": 64,
+    "isRaw": false
+  },
   "redstone_torch": {
     "name": "Redstone Torch",
     "stackSize": 64,
     "isRaw": false
-  },
-  "redstone_wall_torch": {
-    "name": "Redstone Wall Torch",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "redstone_wire": {
-    "name": "Redstone Wire",
-    "stackSize": 64,
-    "isRaw": true
   },
   "reinforced_deepslate": {
     "name": "Reinforced Deepslate",
     "stackSize": 64,
     "isRaw": true
   },
-  "repeater": {
-    "name": "Redstone Repeater",
-    "stackSize": 64,
-    "isRaw": false
-  },
   "repeating_command_block": {
     "name": "Repeating Command Block",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "resin_block": {
-    "name": "Block of Resin",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "resin_brick": {
     "name": "Resin Brick",
@@ -5337,17 +4777,17 @@
   "resin_brick_slab": {
     "name": "Resin Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "resin_brick_stairs": {
     "name": "Resin Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "resin_brick_wall": {
     "name": "Resin Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "resin_bricks": {
     "name": "Resin Bricks",
@@ -5362,12 +4802,7 @@
   "respawn_anchor": {
     "name": "Respawn Anchor",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "rib_armor_trim_smithing_template": {
-    "name": "Rib Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "rooted_dirt": {
     "name": "Rooted Dirt",
@@ -5392,17 +4827,17 @@
   "sandstone_slab": {
     "name": "Sandstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "sandstone_stairs": {
     "name": "Sandstone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "sandstone_wall": {
     "name": "Sandstone Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "scaffolding": {
     "name": "Scaffolding",
@@ -5439,15 +4874,15 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "scute": {
-    "name": "Scute",
+  "turtle_scute": {
+    "name": "Turtle Scute",
     "stackSize": 64,
     "isRaw": true
   },
   "sea_lantern": {
     "name": "Sea Lantern",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "sea_pickle": {
     "name": "Sea Pickle",
@@ -5456,16 +4891,6 @@
   },
   "seagrass": {
     "name": "Seagrass",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "sentry_armor_trim_smithing_template": {
-    "name": "Sentry Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "shaper_armor_trim_smithing_template": {
-    "name": "Shaper Armor Trim",
     "stackSize": 64,
     "isRaw": true
   },
@@ -5514,18 +4939,8 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "silence_armor_trim_smithing_template": {
-    "name": "Silence Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "skeleton_skull": {
     "name": "Skeleton Skull",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "skeleton_wall_skull": {
-    "name": "Skeleton Wall Skull",
     "stackSize": 64,
     "isRaw": true
   },
@@ -5569,55 +4984,50 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "smooth_quartz": {
-    "name": "Smooth Quartz Block",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "smooth_quartz_block": {
     "name": "Smooth Quartz Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_quartz_slab": {
     "name": "Smooth Quartz Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_quartz_stairs": {
     "name": "Smooth Quartz Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_red_sandstone": {
     "name": "Smooth Red Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_red_sandstone_slab": {
     "name": "Smooth Red Sandstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_red_sandstone_stairs": {
     "name": "Smooth Red Sandstone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_sandstone": {
     "name": "Smooth Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_sandstone_slab": {
     "name": "Smooth Sandstone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_sandstone_stairs": {
     "name": "Smooth Sandstone Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "smooth_stone": {
     "name": "Smooth Stone",
@@ -5627,7 +5037,7 @@
   "smooth_stone_slab": {
     "name": "Smooth Stone Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "sniffer_egg": {
     "name": "Sniffer Egg",
@@ -5639,11 +5049,6 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "snout_armor_trim_smithing_template": {
-    "name": "Snout Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "snow": {
     "name": "Snow",
     "stackSize": 64,
@@ -5652,17 +5057,17 @@
   "snow_block": {
     "name": "Snow Block",
     "stackSize": 64,
+    "isRaw": false
+  },
+  "snowball": {
+    "name": "Snowball",
+    "stackSize": 16,
     "isRaw": true
   },
   "soul_campfire": {
     "name": "Soul Campfire",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "soul_fire": {
-    "name": "Soul Fire",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "soul_lantern": {
     "name": "Soul Lantern",
@@ -5684,23 +5089,8 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "soul_wall_torch": {
-    "name": "Soul Wall Torch",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "spawner": {
-    "name": "Monster Spawner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "spider_eye": {
     "name": "Spider Eye",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "spire_armor_trim_smithing_template": {
-    "name": "Spire Armor Trim",
     "stackSize": 64,
     "isRaw": true
   },
@@ -5713,6 +5103,11 @@
     "name": "Spore Blossom",
     "stackSize": 64,
     "isRaw": true
+  },
+  "spruce_boat": {
+    "name": "Spruce Boat",
+    "stackSize": 1,
+    "isRaw": false
   },
   "spruce_button": {
     "name": "Spruce Button",
@@ -5767,7 +5162,7 @@
   "spruce_shelf": {
     "name": "Spruce Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "spruce_sign": {
     "name": "Spruce Sign",
@@ -5789,20 +5184,10 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "spruce_wall_hanging_sign": {
-    "name": "Spruce Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "spruce_wall_sign": {
-    "name": "Spruce Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "spruce_wood": {
     "name": "Spruce Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stick": {
     "name": "Stick",
@@ -5827,17 +5212,17 @@
   "stone_brick_slab": {
     "name": "Stone Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stone_brick_stairs": {
     "name": "Stone Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stone_brick_wall": {
     "name": "Stone Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stone_bricks": {
     "name": "Stone Bricks",
@@ -5877,7 +5262,7 @@
   "stone_spear": {
     "name": "Stone Spear",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stone_stairs": {
     "name": "Stone Stairs",
@@ -5892,7 +5277,7 @@
   "stonecutter": {
     "name": "Stonecutter",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "string": {
     "name": "String",
@@ -5902,122 +5287,117 @@
   "stripped_acacia_log": {
     "name": "Stripped Acacia Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_acacia_wood": {
     "name": "Stripped Acacia Wood",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "stripped_bamboo_block": {
-    "name": "Block of Stripped Bamboo",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_birch_log": {
     "name": "Stripped Birch Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_birch_wood": {
     "name": "Stripped Birch Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_cherry_log": {
     "name": "Stripped Cherry Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_cherry_wood": {
     "name": "Stripped Cherry Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_crimson_hyphae": {
     "name": "Stripped Crimson Hyphae",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_crimson_stem": {
     "name": "Stripped Crimson Stem",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_dark_oak_log": {
     "name": "Stripped Dark Oak Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_dark_oak_wood": {
     "name": "Stripped Dark Oak Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_jungle_log": {
     "name": "Stripped Jungle Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_jungle_wood": {
     "name": "Stripped Jungle Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_mangrove_log": {
     "name": "Stripped Mangrove Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_mangrove_wood": {
     "name": "Stripped Mangrove Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_oak_log": {
     "name": "Stripped Oak Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_oak_wood": {
     "name": "Stripped Oak Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_pale_oak_log": {
     "name": "Stripped Pale Oak Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_pale_oak_wood": {
     "name": "Stripped Pale Oak Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_spruce_log": {
     "name": "Stripped Spruce Log",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_spruce_wood": {
     "name": "Stripped Spruce Wood",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_warped_hyphae": {
     "name": "Stripped Warped Hyphae",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "stripped_warped_stem": {
     "name": "Stripped Warped Stem",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "structure_block": {
     "name": "Structure Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "structure_void": {
     "name": "Structure Void",
@@ -6049,8 +5429,8 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "sweet_berry_bush": {
-    "name": "Sweet Berry Bush",
+  "sweet_berries": {
+    "name": "Sweet Berries",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6064,11 +5444,6 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "tall_seagrass": {
-    "name": "Tall Seagrass",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "target": {
     "name": "Target",
     "stackSize": 64,
@@ -6077,27 +5452,22 @@
   "terracotta": {
     "name": "Terracotta",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "test_block": {
     "name": "Test Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "test_instance_block": {
     "name": "Test Instance Block",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "tide_armor_trim_smithing_template": {
-    "name": "Tide Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tinted_glass": {
     "name": "Tinted Glass",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tnt": {
     "name": "TNT",
@@ -6114,24 +5484,24 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "torchflower_crop": {
-    "name": "Torchflower Crop",
+  "torchflower_seeds": {
+    "name": "Torchflower Seeds",
     "stackSize": 64,
     "isRaw": true
   },
   "trapped_chest": {
     "name": "Trapped Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "trial_spawner": {
     "name": "Trial Spawner",
     "stackSize": 64,
     "isRaw": true
   },
-  "tripwire": {
-    "name": "Tripwire",
-    "stackSize": 64,
+  "trident": {
+    "name": "Trident",
+    "stackSize": 1,
     "isRaw": true
   },
   "tripwire_hook": {
@@ -6147,15 +5517,10 @@
   "tube_coral_block": {
     "name": "Tube Coral Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tube_coral_fan": {
     "name": "Tube Coral Fan",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "tube_coral_wall_fan": {
-    "name": "Tube Coral Wall Fan",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6167,37 +5532,37 @@
   "tuff_brick_slab": {
     "name": "Tuff Brick Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tuff_brick_stairs": {
     "name": "Tuff Brick Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tuff_brick_wall": {
     "name": "Tuff Brick Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tuff_bricks": {
     "name": "Tuff Bricks",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tuff_slab": {
     "name": "Tuff Slab",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tuff_stairs": {
     "name": "Tuff Stairs",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "tuff_wall": {
     "name": "Tuff Wall",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "turtle_egg": {
     "name": "Turtle Egg",
@@ -6206,16 +5571,11 @@
   },
   "turtle_helmet": {
     "name": "Turtle Shell",
-    "stackSize": 64,
-    "isRaw": true
+    "stackSize": 1,
+    "isRaw": false
   },
   "twisting_vines": {
     "name": "Twisting Vines",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "twisting_vines_plant": {
-    "name": "Twisting Vines Plant",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6229,28 +5589,8 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "vex_armor_trim_smithing_template": {
-    "name": "Vex Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "vine": {
     "name": "Vines",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "void_air": {
-    "name": "Void Air",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "wall_torch": {
-    "name": "Wall Torch",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "ward_armor_trim_smithing_template": {
-    "name": "Ward Armor Trim",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6292,7 +5632,7 @@
   "warped_hyphae": {
     "name": "Warped Hyphae",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "warped_nylium": {
     "name": "Warped Nylium",
@@ -6317,7 +5657,7 @@
   "warped_shelf": {
     "name": "Warped Shelf",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "warped_sign": {
     "name": "Warped Sign",
@@ -6337,97 +5677,82 @@
   "warped_stem": {
     "name": "Warped Stem",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "warped_trapdoor": {
     "name": "Warped Trapdoor",
     "stackSize": 64,
     "isRaw": false
   },
-  "warped_wall_hanging_sign": {
-    "name": "Warped Wall Hanging Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "warped_wall_sign": {
-    "name": "Warped Wall Sign",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "warped_wart_block": {
     "name": "Warped Wart Block",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
-  "water": {
-    "name": "Water",
-    "stackSize": 64,
-    "isRaw": true
+  "water_bottle": {
+    "name": "Water Bottle",
+    "stackSize": 16,
+    "isRaw": false
   },
-  "water_cauldron": {
-    "name": "Water Cauldron",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "waxed_chiseled_copper": {
-    "name": "Waxed Chiseled Copper",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "waxed_copper_bars": {
-    "name": "Waxed Copper Bars",
-    "stackSize": 64,
-    "isRaw": true
+  "water_bucket": {
+    "name": "Water Bucket",
+    "stackSize": 1,
+    "isRaw": false
   },
   "waxed_copper_block": {
     "name": "Waxed Block of Copper",
     "stackSize": 64,
     "isRaw": false
   },
+  "waxed_chiseled_copper": {
+    "name": "Waxed Chiseled Copper",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "waxed_copper_bars": {
+    "name": "Waxed Copper Bars",
+    "stackSize": 64,
+    "isRaw": false
+  },
   "waxed_copper_bulb": {
     "name": "Waxed Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_copper_chain": {
     "name": "Waxed Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_copper_chest": {
     "name": "Waxed Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_copper_door": {
     "name": "Waxed Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_copper_golem_statue": {
     "name": "Waxed Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_copper_grate": {
     "name": "Waxed Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_copper_lantern": {
     "name": "Waxed Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "waxed_copper_lightning_rod": {
-    "name": "Waxed Copper Lightning Rod",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_copper_trapdoor": {
     "name": "Waxed Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_cut_copper": {
     "name": "Waxed Cut Copper",
@@ -6447,57 +5772,57 @@
   "waxed_exposed_chiseled_copper": {
     "name": "Waxed Exposed Chiseled Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper": {
     "name": "Waxed Exposed Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_bars": {
     "name": "Waxed Exposed Copper Bars",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_bulb": {
     "name": "Waxed Exposed Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_chain": {
     "name": "Waxed Exposed Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_chest": {
     "name": "Waxed Exposed Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_door": {
     "name": "Waxed Exposed Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_golem_statue": {
     "name": "Waxed Exposed Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_grate": {
     "name": "Waxed Exposed Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_lantern": {
     "name": "Waxed Exposed Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_copper_trapdoor": {
     "name": "Waxed Exposed Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_exposed_cut_copper": {
     "name": "Waxed Exposed Cut Copper",
@@ -6517,62 +5842,67 @@
   "waxed_exposed_lightning_rod": {
     "name": "Waxed Exposed Lightning Rod",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
+  },
+  "waxed_lightning_rod": {
+    "name": "Waxed Lightning Rod",
+    "stackSize": 64,
+    "isRaw": false
   },
   "waxed_oxidized_chiseled_copper": {
     "name": "Waxed Oxidized Chiseled Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper": {
     "name": "Waxed Oxidized Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_bars": {
     "name": "Waxed Oxidized Copper Bars",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_bulb": {
     "name": "Waxed Oxidized Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_chain": {
     "name": "Waxed Oxidized Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_chest": {
     "name": "Waxed Oxidized Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_door": {
     "name": "Waxed Oxidized Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_golem_statue": {
     "name": "Waxed Oxidized Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_grate": {
     "name": "Waxed Oxidized Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_lantern": {
     "name": "Waxed Oxidized Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_copper_trapdoor": {
     "name": "Waxed Oxidized Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_oxidized_cut_copper": {
     "name": "Waxed Oxidized Cut Copper",
@@ -6592,62 +5922,62 @@
   "waxed_oxidized_lightning_rod": {
     "name": "Waxed Oxidized Lightning Rod",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_chiseled_copper": {
     "name": "Waxed Weathered Chiseled Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper": {
     "name": "Waxed Weathered Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_bars": {
     "name": "Waxed Weathered Copper Bars",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_bulb": {
     "name": "Waxed Weathered Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_chain": {
     "name": "Waxed Weathered Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_chest": {
     "name": "Waxed Weathered Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_door": {
     "name": "Waxed Weathered Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_golem_statue": {
     "name": "Waxed Weathered Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_grate": {
     "name": "Waxed Weathered Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_lantern": {
     "name": "Waxed Weathered Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_copper_trapdoor": {
     "name": "Waxed Weathered Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "waxed_weathered_cut_copper": {
     "name": "Waxed Weathered Cut Copper",
@@ -6667,12 +5997,7 @@
   "waxed_weathered_lightning_rod": {
     "name": "Waxed Weathered Lightning Rod",
     "stackSize": 64,
-    "isRaw": true
-  },
-  "wayfinder_armor_trim_smithing_template": {
-    "name": "Wayfinder Armor Trim",
-    "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_chiseled_copper": {
     "name": "Weathered Chiseled Copper",
@@ -6687,27 +6012,27 @@
   "weathered_copper_bars": {
     "name": "Weathered Copper Bars",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_bulb": {
     "name": "Weathered Copper Bulb",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_chain": {
     "name": "Weathered Copper Chain",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_chest": {
     "name": "Weathered Copper Chest",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_door": {
     "name": "Weathered Copper Door",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_golem_statue": {
     "name": "Weathered Copper Golem Statue",
@@ -6717,17 +6042,17 @@
   "weathered_copper_grate": {
     "name": "Weathered Copper Grate",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_lantern": {
     "name": "Weathered Copper Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_trapdoor": {
     "name": "Weathered Copper Trapdoor",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_cut_copper": {
     "name": "Weathered Cut Copper",
@@ -6747,15 +6072,10 @@
   "weathered_lightning_rod": {
     "name": "Weathered Lightning Rod",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weeping_vines": {
     "name": "Weeping Vines",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "weeping_vines_plant": {
-    "name": "Weeping Vines Plant",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6765,7 +6085,12 @@
     "isRaw": true
   },
   "wheat": {
-    "name": "Wheat Crops",
+    "name": "Wheat",
+    "stackSize": 64,
+    "isRaw": true
+  },
+  "wheat_seeds": {
+    "name": "Wheat Seeds",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6773,11 +6098,6 @@
     "name": "White Banner",
     "stackSize": 16,
     "isRaw": false
-  },
-  "white_banner[banner_patterns=[{\"pattern\":\"minecraft:rhombus\",\"color\":\"cyan\"},{\"pattern\":\"minecraft:stripe_bottom\",\"color\":\"light_gray\"},{\"pattern\":\"minecraft:stripe_center\",\"color\":\"gray\"},{\"pattern\":\"minecraft:border\",\"color\":\"light_gray\"},{\"pattern\":\"minecraft:stripe_middle\",\"color\":\"black\"},{\"pattern\":\"minecraft:half_horizontal\",\"color\":\"light_gray\"},{\"pattern\":\"minecraft:circle\",\"color\":\"light_gray\"},{\"pattern\":\"minecraft:border\",\"color\":\"black\"}],tooltip_display={hidden_components:[\"banner_patterns\"]},rarity=\"uncommon\",item_name={\"translate\":\"block.minecraft.ominous_banner\"}]": {
-    "name": "Ominous Banner",
-    "stackSize": 64,
-    "isRaw": true
   },
   "white_bed": {
     "name": "White Bed",
@@ -6787,17 +6107,12 @@
   "white_bundle": {
     "name": "White Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "white_candle": {
     "name": "White Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "white_candle_cake": {
-    "name": "White Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "white_carpet": {
     "name": "White Carpet",
@@ -6849,18 +6164,8 @@
     "stackSize": 64,
     "isRaw": true
   },
-  "white_wall_banner": {
-    "name": "White Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "white_wool": {
     "name": "White Wool",
-    "stackSize": 64,
-    "isRaw": false
-  },
-  "wild_armor_trim_smithing_template": {
-    "name": "Wild Armor Trim",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6876,11 +6181,6 @@
   },
   "wither_skeleton_skull": {
     "name": "Wither Skeleton Skull",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "wither_skeleton_wall_skull": {
-    "name": "Wither Skeleton Wall Skull",
     "stackSize": 64,
     "isRaw": true
   },
@@ -6907,21 +6207,11 @@
   "wooden_spear": {
     "name": "Wooden Spear",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "wooden_sword": {
     "name": "Wooden Sword",
     "stackSize": 1,
-    "isRaw": false
-  },
-  "writable_book": {
-    "name": "Book and Quill",
-    "stackSize": 1,
-    "isRaw": false
-  },
-  "written_book": {
-    "name": "Written Book",
-    "stackSize": 16,
     "isRaw": false
   },
   "yellow_banner": {
@@ -6937,17 +6227,12 @@
   "yellow_bundle": {
     "name": "Yellow Bundle",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "yellow_candle": {
     "name": "Yellow Candle",
     "stackSize": 64,
     "isRaw": false
-  },
-  "yellow_candle_cake": {
-    "name": "Yellow Candle Cake",
-    "stackSize": 64,
-    "isRaw": true
   },
   "yellow_carpet": {
     "name": "Yellow Carpet",
@@ -6994,11 +6279,6 @@
     "stackSize": 64,
     "isRaw": false
   },
-  "yellow_wall_banner": {
-    "name": "Yellow Wall Banner",
-    "stackSize": 64,
-    "isRaw": true
-  },
   "yellow_wool": {
     "name": "Yellow Wool",
     "stackSize": 64,
@@ -7006,11 +6286,6 @@
   },
   "zombie_head": {
     "name": "Zombie Head",
-    "stackSize": 64,
-    "isRaw": true
-  },
-  "zombie_wall_head": {
-    "name": "Zombie Wall Head",
     "stackSize": 64,
     "isRaw": true
   }
