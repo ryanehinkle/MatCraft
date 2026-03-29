@@ -642,7 +642,7 @@
   "blue_dye": {
     "name": "Blue Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "blue_egg": {
     "name": "Blue Egg",
@@ -657,7 +657,7 @@
   "blue_ice": {
     "name": "Blue Ice",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "blue_orchid": {
     "name": "Blue Orchid",
@@ -737,7 +737,7 @@
   "brain_coral_block": {
     "name": "Brain Coral Block",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "brain_coral_fan": {
     "name": "Brain Coral Fan",
@@ -822,7 +822,7 @@
   "brown_dye": {
     "name": "Brown Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "brown_egg": {
     "name": "Brown Egg",
@@ -882,7 +882,7 @@
   "bubble_coral_block": {
     "name": "Bubble Coral Block",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "bubble_coral_fan": {
     "name": "Bubble Coral Fan",
@@ -972,7 +972,7 @@
   "chain_command_block": {
     "name": "Chain Command Block",
     "stackSize": 64,
-    "isRaw": false
+    "isRaw": true
   },
   "chainmail_boots": {
     "name": "Chainmail Boots",
@@ -1347,7 +1347,7 @@
   "copper_nugget": {
     "name": "Copper Nugget",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "copper_ore": {
     "name": "Copper Ore",
@@ -1602,7 +1602,7 @@
   "cyan_dye": {
     "name": "Cyan Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "cyan_glazed_terracotta": {
     "name": "Cyan Glazed Terracotta",
@@ -2157,12 +2157,12 @@
   "exposed_chiseled_copper": {
     "name": "Exposed Chiseled Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper": {
     "name": "Exposed Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_bars": {
     "name": "Exposed Copper Bars",
@@ -2192,7 +2192,7 @@
   "exposed_copper_golem_statue": {
     "name": "Exposed Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "exposed_copper_grate": {
     "name": "Exposed Copper Grate",
@@ -2367,7 +2367,7 @@
   "glowstone": {
     "name": "Glowstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "glowstone_dust": {
     "name": "Glowstone Dust",
@@ -2382,7 +2382,7 @@
   "gold_nugget": {
     "name": "Gold Nugget",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "gold_ore": {
     "name": "Gold Ore",
@@ -2507,7 +2507,7 @@
   "gray_dye": {
     "name": "Gray Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "gray_glazed_terracotta": {
     "name": "Gray Glazed Terracotta",
@@ -2577,7 +2577,7 @@
   "green_dye": {
     "name": "Green Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "green_glazed_terracotta": {
     "name": "Green Glazed Terracotta",
@@ -2630,6 +2630,11 @@
     "isRaw": true
   },
   "hay_bale": {
+    "name": "Hay Bale",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "hay_block": {
     "name": "Hay Bale",
     "stackSize": 64,
     "isRaw": false
@@ -3062,7 +3067,7 @@
   "light_blue_dye": {
     "name": "Light Blue Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "light_blue_glazed_terracotta": {
     "name": "Light Blue Glazed Terracotta",
@@ -3132,7 +3137,7 @@
   "light_gray_dye": {
     "name": "Light Gray Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "light_gray_glazed_terracotta": {
     "name": "Light Gray Glazed Terracotta",
@@ -3227,7 +3232,7 @@
   "lime_dye": {
     "name": "Lime Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "lime_glazed_terracotta": {
     "name": "Lime Glazed Terracotta",
@@ -3312,7 +3317,7 @@
   "magenta_dye": {
     "name": "Magenta Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "magenta_glazed_terracotta": {
     "name": "Magenta Glazed Terracotta",
@@ -3492,12 +3497,12 @@
   "moss_carpet": {
     "name": "Moss Carpet",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_cobblestone": {
     "name": "Mossy Cobblestone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "mossy_cobblestone_slab": {
     "name": "Mossy Cobblestone Slab",
@@ -3692,7 +3697,7 @@
   "netherite_scrap": {
     "name": "Netherite Scrap",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "netherite_shovel": {
     "name": "Netherite Shovel",
@@ -3872,7 +3877,7 @@
   "orange_dye": {
     "name": "Orange Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "orange_glazed_terracotta": {
     "name": "Orange Glazed Terracotta",
@@ -3917,12 +3922,12 @@
   "oxidized_chiseled_copper": {
     "name": "Oxidized Chiseled Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper": {
     "name": "Oxidized Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_bars": {
     "name": "Oxidized Copper Bars",
@@ -3952,7 +3957,7 @@
   "oxidized_copper_golem_statue": {
     "name": "Oxidized Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "oxidized_copper_grate": {
     "name": "Oxidized Copper Grate",
@@ -3992,7 +3997,7 @@
   "packed_ice": {
     "name": "Packed Ice",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "packed_mud": {
     "name": "Packed Mud",
@@ -4007,7 +4012,7 @@
   "pale_moss_carpet": {
     "name": "Pale Moss Carpet",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "pale_oak_boat": {
     "name": "Pale Oak Boat",
@@ -4162,7 +4167,7 @@
   "pink_dye": {
     "name": "Pink Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "pink_glazed_terracotta": {
     "name": "Pink Glazed Terracotta",
@@ -4407,7 +4412,7 @@
   "prismarine": {
     "name": "Prismarine",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "prismarine_brick_slab": {
     "name": "Prismarine Brick Slab",
@@ -4502,7 +4507,7 @@
   "purple_dye": {
     "name": "Purple Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "purple_glazed_terracotta": {
     "name": "Purple Glazed Terracotta",
@@ -4637,7 +4642,7 @@
   "red_dye": {
     "name": "Red Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_glazed_terracotta": {
     "name": "Red Glazed Terracotta",
@@ -4682,7 +4687,7 @@
   "red_sandstone": {
     "name": "Red Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "red_sandstone_slab": {
     "name": "Red Sandstone Slab",
@@ -4822,7 +4827,7 @@
   "sandstone": {
     "name": "Sandstone",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "sandstone_slab": {
     "name": "Sandstone Slab",
@@ -4882,7 +4887,7 @@
   "sea_lantern": {
     "name": "Sea Lantern",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "sea_pickle": {
     "name": "Sea Pickle",
@@ -4981,6 +4986,11 @@
   },
   "smooth_basalt": {
     "name": "Smooth Basalt",
+    "stackSize": 64,
+    "isRaw": false
+  },
+  "smooth_quartz": {
+    "name": "Smooth Quartz Block",
     "stackSize": 64,
     "isRaw": false
   },
@@ -6002,12 +6012,12 @@
   "weathered_chiseled_copper": {
     "name": "Weathered Chiseled Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper": {
     "name": "Weathered Copper",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_bars": {
     "name": "Weathered Copper Bars",
@@ -6037,7 +6047,7 @@
   "weathered_copper_golem_statue": {
     "name": "Weathered Copper Golem Statue",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "weathered_copper_grate": {
     "name": "Weathered Copper Grate",
@@ -6132,7 +6142,7 @@
   "white_dye": {
     "name": "White Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "white_glazed_terracotta": {
     "name": "White Glazed Terracotta",
@@ -6252,7 +6262,7 @@
   "yellow_dye": {
     "name": "Yellow Dye",
     "stackSize": 64,
-    "isRaw": true
+    "isRaw": false
   },
   "yellow_glazed_terracotta": {
     "name": "Yellow Glazed Terracotta",

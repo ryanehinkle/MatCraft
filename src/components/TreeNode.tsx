@@ -26,9 +26,6 @@ type TreeNodeProps = {
   selectedRecipeIndexes: Record<string, number>;
   onCycleRecipe: (itemId: string, direction: "prev" | "next") => void;
   isRoot?: boolean;
-  recipeSwitchItemId?: string;
-  recipeSwitchIndex?: number;
-  recipeSwitchTotal?: number;
 };
 
 function getRecipeOptions(itemId: string): RecipeOption[] {
@@ -52,7 +49,6 @@ function getRecipeOptions(itemId: string): RecipeOption[] {
 function getIconPath(itemId: string): string {
   let iconItemId = itemId;
 
-  // strip prefixes that don't affect visuals
   if (iconItemId.startsWith("waxed_")) {
     iconItemId = iconItemId.replace(/^waxed_/, "");
   }
@@ -136,9 +132,6 @@ function TreeNode({
   selectedRecipeIndexes,
   onCycleRecipe,
   isRoot = false,
-  recipeSwitchItemId,
-  recipeSwitchIndex,
-  recipeSwitchTotal,
 }: TreeNodeProps) {
   const itemData = items[node.item as keyof typeof items];
   const itemName = itemData?.name ?? node.item;
@@ -148,11 +141,9 @@ function TreeNode({
   const isClickable = !isRoot && node.children.length > 0;
   const shouldRenderChildren = node.children.length > 0 && !isManuallyRaw;
 
-  const showRecipeSwitch =
-    !!recipeSwitchItemId &&
-    typeof recipeSwitchIndex === "number" &&
-    typeof recipeSwitchTotal === "number" &&
-    recipeSwitchTotal > 1;
+  const recipeOptions = getRecipeOptions(node.item);
+  const showRecipeSwitch = recipeOptions.length > 1 && !isManuallyRaw;
+  const selectedIndex = selectedRecipeIndexes[node.item] ?? 0;
 
   return (
     <li>
@@ -179,10 +170,10 @@ function TreeNode({
             className="recipe-arrow recipe-arrow-left"
             onClick={(e) => {
               e.stopPropagation();
-              onCycleRecipe(recipeSwitchItemId, "prev");
+              onCycleRecipe(node.item, "prev");
             }}
-            aria-label={`Previous recipe option`}
-            title={`Previous recipe (${recipeSwitchIndex + 1}/${recipeSwitchTotal})`}
+            aria-label="Previous recipe option"
+            title={`Previous recipe (${selectedIndex + 1}/${recipeOptions.length})`}
           >
             ‹
           </button>
@@ -214,10 +205,10 @@ function TreeNode({
             className="recipe-arrow recipe-arrow-right"
             onClick={(e) => {
               e.stopPropagation();
-              onCycleRecipe(recipeSwitchItemId, "next");
+              onCycleRecipe(node.item, "next");
             }}
-            aria-label={`Next recipe option`}
-            title={`Next recipe (${recipeSwitchIndex + 1}/${recipeSwitchTotal})`}
+            aria-label="Next recipe option"
+            title={`Next recipe (${selectedIndex + 1}/${recipeOptions.length})`}
           >
             ›
           </button>
@@ -226,39 +217,19 @@ function TreeNode({
 
       {shouldRenderChildren && (
         <ul>
-          {node.children.map((child, index) => {
-            const childRecipeOptions = getRecipeOptions(node.item);
-            const parentHasAlternatives = childRecipeOptions.length > 1;
-            const selectedIndex = selectedRecipeIndexes[node.item] ?? 0;
-
-            const shouldShowSwitchOnThisChild =
-              parentHasAlternatives && index === 0;
-
-            return (
-              <TreeNode
-                key={index}
-                node={child}
-                roundCraftingItems={roundCraftingItems}
-                simplifyLargeQuantities={simplifyLargeQuantities}
-                manuallyRawItems={manuallyRawItems}
-                onToggleManualRaw={onToggleManualRaw}
-                selectedRecipeIndexes={selectedRecipeIndexes}
-                onCycleRecipe={onCycleRecipe}
-                isRoot={false}
-                recipeSwitchItemId={
-                  shouldShowSwitchOnThisChild ? node.item : undefined
-                }
-                recipeSwitchIndex={
-                  shouldShowSwitchOnThisChild ? selectedIndex : undefined
-                }
-                recipeSwitchTotal={
-                  shouldShowSwitchOnThisChild
-                    ? childRecipeOptions.length
-                    : undefined
-                }
-              />
-            );
-          })}
+          {node.children.map((child, index) => (
+            <TreeNode
+              key={index}
+              node={child}
+              roundCraftingItems={roundCraftingItems}
+              simplifyLargeQuantities={simplifyLargeQuantities}
+              manuallyRawItems={manuallyRawItems}
+              onToggleManualRaw={onToggleManualRaw}
+              selectedRecipeIndexes={selectedRecipeIndexes}
+              onCycleRecipe={onCycleRecipe}
+              isRoot={false}
+            />
+          ))}
         </ul>
       )}
     </li>

@@ -6,8 +6,10 @@ import UploadCsv from "./components/UploadCSV";
 import HelpButton from "./components/HelpButton";
 import type { BreakdownNode } from "./types/BreakdownNode";
 import ContactButton from "./components/ContactButton";
+import ManualItemEntry from "./components/ManualItemEntry";
 
 type CsvItem = {
+  id: string;
   name: string;
   quantity: number;
 };
@@ -38,6 +40,10 @@ type RecipeEntry = RecipeOption & {
   alternatives?: RecipeOption[];
 };
 
+function createEntryId() {
+  return `entry-${Date.now()}-${Math.random().toString(36).slice(2, 10)}`;
+}
+
 function getItemIdFromName(name: string): string | null {
   for (const [id, item] of Object.entries(items)) {
     if (item.name === name) {
@@ -50,7 +56,6 @@ function getItemIdFromName(name: string): string | null {
 function getIconPath(itemId: string): string {
   let iconItemId = itemId;
 
-  // strip prefixes that don't affect visuals
   if (iconItemId.startsWith("waxed_")) {
     iconItemId = iconItemId.replace(/^waxed_/, "");
   }
@@ -231,6 +236,10 @@ function App() {
     Record<string, number>
   >({});
 
+  function sortItemsDescending(input: CsvItem[]) {
+    return [...input].sort((a, b) => b.quantity - a.quantity);
+  }
+
   function handleFileSelect(file: File) {
     const reader = new FileReader();
 
@@ -243,16 +252,19 @@ function App() {
           .map((line) => line.trim())
           .filter((line) => line.length > 0);
 
-        const parsed: CsvItem[] = lines.map((line) => {
-          const parts = line.split(",").map((part) => part.trim());
+        const parsed: CsvItem[] = lines
+          .slice(1)
+          .map((line) => {
+            const parts = line
+              .split(",")
+              .map((part) => part.trim().replace(/^"(.*)"$/, "$1"));
 
-          return {
-            name: parts[0],
-            quantity: Number(parts[1]),
-          };
-        });
-
-        parsed.sort((a, b) => b.quantity - a.quantity);
+            return {
+              id: createEntryId(),
+              name: parts[0],
+              quantity: Number(parts[1]),
+            };
+          });
 
         setCheckedRawItems({});
         setAnimatingRawOutId(null);
@@ -261,11 +273,35 @@ function App() {
         setIsRawSummaryOpen(false);
         setManuallyRawItems({});
         setSelectedRecipeIndexes({});
-        setParsedItems(parsed);
+        setParsedItems(sortItemsDescending(parsed));
       }
     };
 
     reader.readAsText(file);
+  }
+
+  function handleAddManualItem(itemName: string, quantity: number) {
+    setParsedItems((prev) => {
+      const existingIndex = prev.findIndex((item) => item.name === itemName);
+
+      if (existingIndex !== -1) {
+        const updated = [...prev];
+        updated[existingIndex] = {
+          ...updated[existingIndex],
+          quantity: updated[existingIndex].quantity + quantity,
+        };
+        return sortItemsDescending(updated);
+      }
+
+      return sortItemsDescending([
+        ...prev,
+        {
+          id: createEntryId(),
+          name: itemName,
+          quantity,
+        },
+      ]);
+    });
   }
 
   function handleItemCheck(resultId: string, checked: boolean) {
@@ -287,6 +323,59 @@ function App() {
       ...prev,
       [resultId]: false,
     }));
+  }
+
+  function handleExportRawMaterialsCsv() {
+    if (rawMaterialTotals.length === 0) {
+      return;
+    }
+
+    const rows = rawMaterialTotals.map(({ itemId, quantity }) => {
+      const itemData = items[itemId as keyof typeof items];
+      const itemName = itemData?.name ?? itemId;
+
+      return {
+        item: itemName,
+        quantity: formatBaseQuantity(quantity, roundCraftingItems),
+      };
+    });
+
+    const csvLines = [
+      ["Item", "Quantity"],
+      ...rows.map((row) => [row.item, String(row.quantity)]),
+    ];
+
+    const csvContent = csvLines
+      .map((line) =>
+        line
+          .map((value) => `"${String(value).replace(/"/g, '""')}"`)
+          .join(",")
+      )
+      .join("\n");
+
+    const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+
+    const link = document.createElement("a");
+    link.href = url;
+    const now = new Date();
+
+    const formatted = now.toLocaleString("en-US", {
+      month: "2-digit",
+      day: "2-digit",
+      year: "numeric",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+    }).replace(/[/:]/g, "-"); // replace invalid filename chars
+
+    link.download = `Matcraft Raw Materials ${formatted}.csv`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    URL.revokeObjectURL(url);
   }
 
   function handleRawItemCheck(itemId: string, checked: boolean) {
@@ -340,12 +429,12 @@ function App() {
   }
 
   const breakdownResults = useMemo<BreakdownResult[]>(() => {
-    return parsedItems.map((item, index) => {
+    return parsedItems.map((item) => {
       const itemId = getItemIdFromName(item.name);
 
       if (!itemId) {
         return {
-          id: `${item.name}-${index}`,
+          id: item.id,
           sourceName: item.name,
           sourceQuantity: item.quantity,
           tree: null,
@@ -353,7 +442,7 @@ function App() {
       }
 
       return {
-        id: `${item.name}-${index}`,
+        id: item.id,
         sourceName: item.name,
         sourceQuantity: item.quantity,
         tree: buildBreakdownTree(
@@ -421,6 +510,14 @@ function App() {
   return (
     <>
       <HelpButton />
+      <a
+        href="https://www.buymeacoffee.com/matcraft"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bmc-link"
+      >
+        ☕ Buy me a coffee :)
+      </a>
       <ContactButton />
 
       <div
@@ -430,16 +527,18 @@ function App() {
             : "app-container"
         }
       >
-        <video
-          src="/logo.mp4"
-          autoPlay
-          muted
-          playsInline
+        <img
           className="logo-video"
+          src="/logo.gif"
+          alt="MatCraft Logo"
         />
 
-        <div className="upload-container">
-          <UploadCsv onFileSelect={handleFileSelect} />
+        <div className="input-row">
+          <div className="upload-container">
+            <UploadCsv onFileSelect={handleFileSelect} />
+          </div>
+
+          <ManualItemEntry onAddItem={handleAddManualItem} />
         </div>
 
         {breakdownResults.length > 0 && (
@@ -469,13 +568,28 @@ function App() {
                 isRawSummaryOpen ? "raw-summary-open" : ""
               }`}
             >
-              <button
-                type="button"
-                className="raw-summary-toggle"
-                onClick={() => setIsRawSummaryOpen((prev) => !prev)}
-              >
-                Total Raw Materials
-              </button>
+              <div className="raw-summary-header">
+                <button
+                  type="button"
+                  className="raw-summary-toggle"
+                  onClick={() => setIsRawSummaryOpen((prev) => !prev)}
+                >
+                  <span>Total Raw Materials</span>
+
+                  <button
+                    type="button"
+                    className="raw-summary-export"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleExportRawMaterialsCsv();
+                    }}
+                  >
+                    Export CSV
+                  </button>
+
+                  <span className="raw-summary-arrow">▾</span>
+                </button>
+              </div>
 
               <div className="raw-summary-list">
                 <div className="raw-summary-list-inner">
@@ -515,7 +629,6 @@ function App() {
                               className="tree-icon"
                               onError={(e) => {
                                 console.warn(`Missing icon: ${getIconPath(itemId)}`);
-
                                 const img = e.currentTarget as HTMLImageElement;
                                 img.style.display = "none";
                               }}

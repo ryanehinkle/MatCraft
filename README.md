@@ -1,73 +1,70 @@
-# React + TypeScript + Vite
+# MatCraft
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MatCraft is a tool for Minecraft that takes a materials list and shows you exactly what you need to craft everything from scratch.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## How It Works
 
-## React Compiler
+1. Export a materials list from Litematica  
+   - Hold **Shift** and click **Save to File**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+2. Upload the CSV into MatCraft  
+   - Or manually add items using the search bar
 
-## Expanding the ESLint configuration
+3. View your crafting trees  
+   - Items are sorted from highest to lowest quantity  
+   - Everything is broken down into raw materials  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Crafting Trees**  
+  See exactly how every item is made
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Multiple Recipes**  
+  Switch between different crafting options
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **Manual Item Entry**  
+  Add items without a CSV
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Progress Tracking**  
+  Check off items you’ve already gathered
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- **Total Raw Materials**  
+  Combines everything you need into one list
+
+- **Export to CSV**  
+  Download your raw materials list
+
+---
+
+## Options
+
+- **Round Crafting Items***  
+  Rounds up to the minimum number needed to craft
+
+- **Simplify Large Quantities**  
+  Shows totals as stacks or shulker boxes (whichever fits)
+
+---
+
+## Notes
+
+- Some items have multiple crafting paths (like dyes or wood types), you can cycle through these using the arrows
+- You can mark any item as "raw" by clicking on it if you don't need to craft it
+- These changes update automatically for the whole list
+
+---
+
+## Coming Soon
+
+- Export full trees as PDF  
+- Save/load projects  
+
+---
+
+## Author
+
+Ryan Hinkle
