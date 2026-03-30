@@ -1,3 +1,5 @@
+[Visit MatCraft](https://matcraft.app/)
+
 # MatCraft
 
 MatCraft is a tool for Minecraft that takes a materials list and shows you exactly what you need to craft everything from scratch.
