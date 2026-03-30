@@ -85,6 +85,17 @@ function getRecipeOptions(itemId: string): RecipeOption[] {
   ];
 }
 
+function shouldForceMinimumCraft(
+  quantity: number,
+  recipe: RecipeOption | undefined
+): boolean {
+  if (!recipe) {
+    return false;
+  }
+
+  return recipe.outputQuantity > 0 && quantity < recipe.outputQuantity;
+}
+
 function buildBreakdownTree(
   itemId: string,
   quantity: number,
@@ -113,7 +124,11 @@ function buildBreakdownTree(
     return { item: itemId, quantity, children: [] };
   }
 
-  const multiplier = quantity / recipe.outputQuantity;
+  const craftQuantity = shouldForceMinimumCraft(quantity, recipe)
+    ? recipe.outputQuantity
+    : quantity;
+
+  const multiplier = craftQuantity / recipe.outputQuantity;
 
   const children = recipe.ingredients.map((ingredient) =>
     buildBreakdownTree(
@@ -176,21 +191,28 @@ function formatQuantity(
   quantity: number,
   roundCraftingItems: boolean,
   simplifyLargeQuantities: boolean,
-  stackSize: number
+  stackSize: number,
+  forceMinimumCraft = false
 ): string {
   const baseQuantity = formatBaseQuantity(quantity, roundCraftingItems);
-  const roundedMark =
-    roundCraftingItems && !Number.isInteger(quantity) ? "*" : "";
+
+  let markers = "";
+  if (forceMinimumCraft) {
+    markers += "^";
+  }
+  if (roundCraftingItems && !Number.isInteger(quantity)) {
+    markers += "*";
+  }
 
   if (!simplifyLargeQuantities) {
-    return `${Number(baseQuantity.toFixed(2))}${roundedMark}`;
+    return `${Number(baseQuantity.toFixed(2))}${markers}`;
   }
 
   if (stackSize === 1) {
-    return `${Number(baseQuantity.toFixed(2))}${roundedMark}`;
+    return `${Number(baseQuantity.toFixed(2))}${markers}`;
   }
 
-  return `${formatSimplifiedQuantity(baseQuantity, stackSize)}${roundedMark}`;
+  return `${formatSimplifiedQuantity(baseQuantity, stackSize)}${markers}`;
 }
 
 function collectRawMaterials(
@@ -360,15 +382,17 @@ function App() {
     link.href = url;
     const now = new Date();
 
-    const formatted = now.toLocaleString("en-US", {
-      month: "2-digit",
-      day: "2-digit",
-      year: "numeric",
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit",
-      hour12: true,
-    }).replace(/[/:]/g, "-"); // replace invalid filename chars
+    const formatted = now
+      .toLocaleString("en-US", {
+        month: "2-digit",
+        day: "2-digit",
+        year: "numeric",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true,
+      })
+      .replace(/[/:]/g, "-");
 
     link.download = `Matcraft Raw Materials ${formatted}.csv`;
     document.body.appendChild(link);
@@ -445,11 +469,7 @@ function App() {
         id: item.id,
         sourceName: item.name,
         sourceQuantity: item.quantity,
-        tree: buildBreakdownTree(
-          itemId,
-          item.quantity,
-          selectedRecipeIndexes
-        ),
+        tree: buildBreakdownTree(itemId, item.quantity, selectedRecipeIndexes),
       };
     });
   }, [parsedItems, selectedRecipeIndexes]);
@@ -518,6 +538,7 @@ function App() {
       >
         ☕ Buy me a coffee :)
       </a>
+
       <ContactButton />
 
       <div
@@ -527,11 +548,7 @@ function App() {
             : "app-container"
         }
       >
-        <img
-          className="logo-video"
-          src="/logo.gif"
-          alt="MatCraft Logo"
-        />
+        <img className="logo-video" src="/logo.gif" alt="MatCraft Logo" />
 
         <div className="input-row">
           <div className="upload-container">
@@ -628,8 +645,11 @@ function App() {
                               alt={itemName}
                               className="tree-icon"
                               onError={(e) => {
-                                console.warn(`Missing icon: ${getIconPath(itemId)}`);
-                                const img = e.currentTarget as HTMLImageElement;
+                                console.warn(
+                                  `Missing icon: ${getIconPath(itemId)}`
+                                );
+                                const img =
+                                  e.currentTarget as HTMLImageElement;
                                 img.style.display = "none";
                               }}
                             />
@@ -642,7 +662,8 @@ function App() {
                               quantity,
                               roundCraftingItems,
                               simplifyLargeQuantities,
-                              stackSize
+                              stackSize,
+                              false
                             )}
                           </span>
                         </div>

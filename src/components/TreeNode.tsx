@@ -106,21 +106,28 @@ function formatQuantity(
   quantity: number,
   roundCraftingItems: boolean,
   simplifyLargeQuantities: boolean,
-  stackSize: number
+  stackSize: number,
+  forceMinimumCraft = false
 ): string {
   const baseQuantity = formatBaseQuantity(quantity, roundCraftingItems);
-  const roundedMark =
-    roundCraftingItems && !Number.isInteger(quantity) ? "*" : "";
+
+  let markers = "";
+  if (forceMinimumCraft) {
+    markers += "^";
+  }
+  if (roundCraftingItems && !Number.isInteger(quantity)) {
+    markers += "*";
+  }
 
   if (!simplifyLargeQuantities) {
-    return `${Number(baseQuantity.toFixed(2))}${roundedMark}`;
+    return `${Number(baseQuantity.toFixed(2))}${markers}`;
   }
 
   if (stackSize === 1) {
-    return `${Number(baseQuantity.toFixed(2))}${roundedMark}`;
+    return `${Number(baseQuantity.toFixed(2))}${markers}`;
   }
 
-  return `${formatSimplifiedQuantity(baseQuantity, stackSize)}${roundedMark}`;
+  return `${formatSimplifiedQuantity(baseQuantity, stackSize)}${markers}`;
 }
 
 function TreeNode({
@@ -142,8 +149,14 @@ function TreeNode({
   const shouldRenderChildren = node.children.length > 0 && !isManuallyRaw;
 
   const recipeOptions = getRecipeOptions(node.item);
-  const showRecipeSwitch = recipeOptions.length > 1 && !isManuallyRaw;
   const selectedIndex = selectedRecipeIndexes[node.item] ?? 0;
+  const recipe = recipeOptions[selectedIndex] ?? recipeOptions[0];
+  const showRecipeSwitch = recipeOptions.length > 1 && !isManuallyRaw;
+  const forceMinimumCraft =
+    !!recipe &&
+    recipe.outputQuantity > 0 &&
+    node.children.length > 0 &&
+    node.quantity < recipe.outputQuantity;
 
   return (
     <li>
@@ -195,7 +208,8 @@ function TreeNode({
             node.quantity,
             roundCraftingItems,
             simplifyLargeQuantities,
-            stackSize
+            stackSize,
+            forceMinimumCraft
           )}
         </span>
 

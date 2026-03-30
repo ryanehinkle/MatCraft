@@ -129,6 +129,13 @@ function HelpButton() {
               dyes or wood variants), so results may change depending on the
               selected recipe.
             </p>
+
+            <p>
+              A <b>^</b> symbol means at least one full crafting operation is required,
+              even if the amount was smaller than the recipe output. For example,
+              if a recipe crafts 6 items but you only need 1, the ingredients for all 6
+              will still be used, since that's the minimum output.
+            </p>
           </HelpSection>
         </div>
       )}
