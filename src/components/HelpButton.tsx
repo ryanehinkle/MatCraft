@@ -136,6 +136,20 @@ function HelpButton() {
               if a recipe crafts 6 items but you only need 1, the ingredients for all 6
               will still be used, since that's the minimum output.
             </p>
+
+            <p>
+              You can view the {" "} 
+              <u>
+                <a
+                  href="https://github.com/ryanehinkle/MatCraft"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="help-link"
+                >
+                  source code
+                </a>
+              </u>{" "} here.
+            </p>
           </HelpSection>
         </div>
       )}
