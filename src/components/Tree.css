@@ -1,6 +1,30 @@
 .tree-wrapper {
-  padding: 16px 0;
+  padding: 16px 0 10px 0;
   overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+}
+
+.tree-wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.tree-wrapper::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 999px;
+}
+
+.tree-wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+
+.tree-wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.34);
 }
 
 .tree-root,
@@ -13,6 +37,8 @@
 .tree-root {
   display: flex;
   justify-content: center;
+  width: max-content;
+  min-width: 100%;
 }
 
 .tree-root li {
@@ -159,4 +185,34 @@
 
 .recipe-arrow-right {
   margin-left: 2px;
+}
+
+@media (max-width: 700px) {
+  .tree-wrapper {
+    padding: 12px 0 8px 0;
+    overflow-x: auto;
+    overflow-y: visible;
+    -webkit-overflow-scrolling: touch;
+
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.22) transparent;
+  }
+
+  .tree-wrapper::-webkit-scrollbar {
+    height: 8px;
+  }
+
+  .tree-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 999px;
+  }
+
+  .tree-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+  }
+
+  .tree-wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.34);
+  }
 }

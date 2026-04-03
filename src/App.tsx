@@ -674,6 +674,10 @@ function App() {
               </div>
             </div>
 
+            <div className="mobile-tree-hint">
+                ↔ Scroll trees side to side
+            </div>
+
             <div className="results-container">
               {displayedResults.map((result) => {
                 const isChecked = !!checkedItems[result.id];
