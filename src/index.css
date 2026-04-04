@@ -140,8 +140,13 @@ code {
 }
 
 .upload-button {
-  display: inline-block;
-  padding: 12px 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 46px; /* 👈 match inputs */
+  padding: 0 18px; /* remove vertical padding */
+
   border: 1px solid var(--accent-border);
   border-radius: 12px;
   color: var(--text-h);
